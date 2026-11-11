@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Workshop | Classical Pilates Studio in Edmonds, WA</title>
+<meta name="description" content="Classical Pilates in Edmonds, WA. Private, duet and semi-private sessions on the full classical apparatus, plus the Pilates Magic Retreat in France, 2027.">
+<link rel="stylesheet" href="fonts.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231E3A4C'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-size='34' fill='%23F6F1E9'%3EW%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ExerciseGym","name":"The Workshop","description":"Classical Pilates studio offering private, duet and semi-private sessions.","address":{"@type":"PostalAddress","addressLocality":"Edmonds","addressRegion":"WA","addressCountry":"US"},"telephone":"+1-425-555-0148","sameAs":["https://www.instagram.com/theworkshopedmonds/"]}
+</script>
+<style>
+:root{
+  --sea:#1E3A4C; --sea-2:#2B5068; --ink:#1B2730; --muted:#5D6B74;
+  --cream:#F6F1E9; --sand:#ECE3D6; --line:#DCD2C3; --clay:#B07A52; --white:#FFFDF9;
+  --serif:'Cormorant Garamond',Georgia,serif; --sans:'Inter',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--ink);background:var(--cream);line-height:1.6;font-size:16px;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+.eyebrow{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--clay);font-weight:600}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.08;color:var(--sea)}
+h1{font-size:clamp(44px,6vw,78px);letter-spacing:-.01em}
+h2{font-size:clamp(36px,4.4vw,56px)}
+h3{font-size:30px}
+em{font-style:italic}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 26px;border-radius:999px;font-weight:600;font-size:15px;transition:.2s;border:1.5px solid transparent;cursor:pointer}
+.btn-dark{background:var(--sea);color:var(--cream)}
+.btn-dark:hover{background:var(--sea-2)}
+.btn-line{border-color:var(--sea);color:var(--sea)}
+.btn-line:hover{background:var(--sea);color:var(--cream)}
+
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(246,241,233,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:78px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .mark{width:42px;height:42px;border-radius:50%;border:1.5px solid var(--sea);display:grid;place-items:center;font-family:var(--serif);font-size:24px;color:var(--sea)}
+.brand b{font-family:var(--serif);font-size:26px;font-weight:600;color:var(--sea);display:block;line-height:1}
+.brand small{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.links{display:flex;gap:30px;font-size:14.5px;font-weight:500}
+.links a:hover{color:var(--clay)}
+.nav-cta{display:flex;align-items:center;gap:20px}
+.phone{font-weight:600;font-size:14.5px;color:var(--sea)}
+.nav .btn{padding:12px 22px;font-size:14px}
+
+/* hero */
+.hero{padding:70px 0 90px;position:relative;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+.hero p.lead{font-size:19px;color:var(--muted);max-width:520px;margin:26px 0 34px}
+.hero .eyebrow{display:block;margin-bottom:22px}
+.ctas{display:flex;gap:14px;flex-wrap:wrap}
+.chips{display:flex;gap:10px;margin-top:38px;flex-wrap:wrap}
+.chips span{border:1px solid var(--line);background:var(--white);border-radius:999px;padding:8px 16px;font-size:13.5px;color:var(--sea);font-weight:500}
+.collage{position:relative;height:540px}
+.collage .a{position:absolute;right:8%;top:0;width:76%;border-radius:200px 200px 18px 18px;overflow:hidden;box-shadow:0 30px 60px -30px rgba(30,58,76,.45)}
+.collage .a img{width:100%;height:500px;object-fit:cover;object-position:50% 30%}
+.collage .b{position:absolute;left:0;bottom:0;width:50%;border-radius:16px;overflow:hidden;border:8px solid var(--cream);box-shadow:0 24px 50px -24px rgba(30,58,76,.5)}
+.collage .b img{width:100%;height:230px;object-fit:cover}
+.collage .tag{position:absolute;left:0;bottom:40px;background:var(--sea);color:var(--cream);padding:14px 18px;border-radius:14px;font-size:13px;max-width:210px;line-height:1.4}
+.collage .tag b{font-family:var(--serif);font-size:20px;font-weight:500;display:block}
+.waves{position:absolute;left:0;right:0;bottom:0;height:60px;opacity:.5}
+
+/* strip */
+.strip{background:var(--sea);color:var(--cream)}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding-top:30px;padding-bottom:30px}
+.strip div{display:flex;gap:12px;align-items:center;font-size:14.5px}
+.strip svg{flex:none}
+
+section{padding:110px 0}
+.head{max-width:680px;margin-bottom:56px}
+.head p{color:var(--muted);font-size:18px;margin-top:18px}
+.head .eyebrow{display:block;margin-bottom:16px}
+
+/* sessions */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:22px;padding:38px 32px;display:flex;flex-direction:column;transition:.25s}
+.card:hover{transform:translateY(-4px);box-shadow:0 26px 50px -30px rgba(30,58,76,.4)}
+.card .num{font-family:var(--serif);font-size:22px;color:var(--clay);letter-spacing:.1em}
+.card h3{margin:14px 0 6px}
+.card .who{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:18px}
+.card p{color:var(--muted);flex:1}
+.card ul{list-style:none;margin:22px 0 28px;border-top:1px solid var(--line)}
+.card li{padding:11px 0;border-bottom:1px solid var(--line);font-size:14.5px;display:flex;gap:10px}
+.card li:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--clay);margin-top:9px;flex:none}
+.card a.more{font-weight:600;color:var(--sea);font-size:15px}
+.card.feat{background:var(--sea);border-color:var(--sea)}
+.card.feat h3,.card.feat a.more{color:var(--cream)}
+.card.feat p,.card.feat .who,.card.feat li{color:#C9D5DC}
+.card.feat ul,.card.feat li{border-color:rgba(255,255,255,.14)}
+
+/* method */
+.method{background:var(--sand)}
+.split{display:grid;grid-template-columns:.9fr 1.1fr;gap:80px;align-items:center}
+.photo-frame{position:relative}
+.photo-frame img{width:100%;height:500px;object-fit:cover;border-radius:18px}
+.photo-frame .cap{position:absolute;left:-20px;bottom:36px;background:var(--cream);padding:16px 20px;border-radius:12px;font-family:var(--serif);font-size:22px;color:var(--sea);font-style:italic;box-shadow:0 18px 40px -20px rgba(0,0,0,.3)}
+.pillars{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:40px}
+.pillars div{border-top:1.5px solid var(--sea);padding-top:16px}
+.pillars h4{font-family:var(--serif);font-size:24px;font-weight:600;color:var(--sea);margin-bottom:6px}
+.pillars p{color:var(--muted);font-size:15px}
+
+/* teacher */
+.teacher .split{grid-template-columns:1.1fr .9fr}
+.teacher img{width:100%;max-width:420px;height:540px;object-fit:cover;border-radius:220px 220px 18px 18px;margin-left:auto}
+.quote{font-family:var(--serif);font-size:30px;line-height:1.3;color:var(--sea);font-style:italic;margin:30px 0;padding-left:24px;border-left:2px solid var(--clay)}
+.teacher p{color:var(--muted);font-size:17px;margin-bottom:16px}
+
+/* retreat */
+.retreat{background:var(--sea);color:var(--cream);position:relative;overflow:hidden}
+.retreat h2{color:var(--cream)}
+.retreat .eyebrow{color:#E2B58F}
+.retreat-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.retreat p{color:#C9D5DC;font-size:18px;margin:22px 0 30px}
+.retreat ul{list-style:none;margin-bottom:36px}
+.retreat li{padding:12px 0;border-bottom:1px solid rgba(255,255,255,.14);display:flex;gap:14px;align-items:center}
+.retreat li span{font-family:var(--serif);font-size:20px;color:#E2B58F;width:28px}
+.btn-cream{background:var(--cream);color:var(--sea)}
+.btn-cream:hover{background:#fff}
+.pics{position:relative;height:520px}
+.pics img{position:absolute;object-fit:cover;border-radius:16px;box-shadow:0 30px 60px -25px rgba(0,0,0,.6)}
+.pics .p1{right:0;top:0;width:66%;height:380px}
+.pics .p2{left:0;bottom:0;width:56%;height:300px;border:8px solid var(--sea)}
+.pics .badge{position:absolute;left:6%;top:30px;width:118px;height:118px;border-radius:50%;background:var(--clay);color:var(--cream);display:grid;place-items:center;text-align:center;font-family:var(--serif);font-size:19px;line-height:1.1;transform:rotate(-8deg)}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;counter-reset:s}
+.step{padding:34px 30px;border-radius:20px;background:var(--white);border:1px solid var(--line)}
+.step:before{counter-increment:s;content:"0" counter(s);font-family:var(--serif);font-size:44px;color:var(--clay);display:block;line-height:1;margin-bottom:18px}
+.step h4{font-family:var(--serif);font-size:26px;font-weight:600;color:var(--sea);margin-bottom:8px}
+.step p{color:var(--muted)}
+
+/* contact */
+.contact{background:var(--sand)}
+.contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px}
+.info p{color:var(--muted);font-size:17px;margin:18px 0 34px}
+.info .row{display:flex;gap:16px;align-items:flex-start;padding:18px 0;border-top:1px solid var(--line)}
+.info .row:last-child{border-bottom:1px solid var(--line)}
+.info .ic{width:44px;height:44px;border-radius:50%;background:var(--sea);display:grid;place-items:center;flex:none}
+.info small{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.info b{font-weight:600;color:var(--sea);font-size:16.5px}
+form{background:var(--white);border-radius:24px;padding:42px;border:1px solid var(--line);box-shadow:0 30px 60px -40px rgba(30,58,76,.4)}
+form h3{margin-bottom:6px}
+form .sub{color:var(--muted);font-size:15px;margin-bottom:26px}
+.f2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+label{display:block;font-size:13px;font-weight:600;color:var(--sea);margin-bottom:16px}
+input,select,textarea{width:100%;margin-top:7px;padding:13px 15px;border:1px solid var(--line);border-radius:12px;font:inherit;font-size:15px;background:var(--cream);color:var(--ink)}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--sea-2);outline-offset:1px;background:#fff}
+.opts{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+.opts label{margin:0}
+.opts input{display:none}
+.opts span{display:inline-block;padding:10px 16px;border:1px solid var(--line);border-radius:999px;font-weight:500;font-size:14px;cursor:pointer;background:var(--cream)}
+.opts input:checked+span{background:var(--sea);color:var(--cream);border-color:var(--sea)}
+form .btn{width:100%;justify-content:center;margin-top:8px;font-size:16px}
+.thanks{display:none;text-align:center;padding:40px 10px}
+.thanks h3{margin-bottom:10px}
+
+footer{background:#16303F;color:#A9B9C3;padding:60px 0 110px;font-size:14px}
+.foot{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:flex-start}
+footer .brand b{color:var(--cream)} footer .brand .mark{border-color:var(--cream);color:var(--cream)}
+footer nav{display:flex;gap:26px;flex-wrap:wrap}
+footer a:hover{color:#fff}
+.legal{margin-top:40px;padding-top:24px;border-top:1px solid rgba(255,255,255,.1);font-size:13px}
+
+.mbar{display:none}
+@media(max-width:980px){
+  .links,.phone{display:none}
+  .hero-grid,.split,.teacher .split,.retreat-grid,.contact-grid{grid-template-columns:1fr;gap:44px}
+  .collage{height:440px}
+  .collage .a img{height:360px}
+  .cards,.steps{grid-template-columns:1fr}
+  .strip .wrap{grid-template-columns:1fr 1fr}
+  .teacher img{margin:0 auto}
+  .pics{height:440px}
+}
+@media(max-width:600px){
+  .wrap{padding:0 18px}
+  section{padding:76px 0}
+  .hero{padding:44px 0 60px}
+  .nav{height:66px}
+  .nav .btn{display:none}
+  .brand small{display:none}
+  .collage{height:380px}
+  .collage .a{width:80%}
+  .collage .a img{height:310px}
+  .collage .b img{height:170px}
+  .collage .tag{display:none}
+  .strip .wrap{grid-template-columns:1fr}
+  .pillars,.f2{grid-template-columns:1fr}
+  form{padding:28px 20px}
+  .photo-frame img{height:380px}
+  .photo-frame .cap{left:12px}
+  .teacher img{height:440px}
+  .quote{font-size:25px}
+  .pics{height:380px}.pics .p1{height:280px}.pics .p2{height:220px}
+  .mbar{display:grid;grid-template-columns:1fr 1.4fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:12px 14px;background:rgba(246,241,233,.97);border-top:1px solid var(--line)}
+  .mbar a{justify-content:center;padding:14px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="brand" aria-label="The Workshop home">
+      <span class="mark">W</span>
+      <span><b>The Workshop</b><small>Classical Pilates · Edmonds</small></span>
+    </a>
+    <nav class="links">
+      <a href="#sessions">Sessions</a>
+      <a href="#method">The Method</a>
+      <a href="#katie">Meet Katie</a>
+      <a href="#retreat">France 2027</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="phone" href="tel:+14255550148">(425) 555-0148</a>
+      <a class="btn btn-dark" href="#contact">Book a Session</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Classical Pilates Studio · Edmonds, WA</span>
+      <h1>Classical Pilates, <em>taught to your body.</em></h1>
+      <p class="lead">Private, duet and semi-private sessions on the full classical apparatus. Real teaching, real attention, and a practice that grows with you.</p>
+      <div class="ctas">
+        <a class="btn btn-dark" href="#contact">Book Your First Session
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-line" href="#sessions">Explore Sessions</a>
+      </div>
+      <div class="chips"><span>Private</span><span>Duet</span><span>Semi-Private</span><span>Pilates Magic Retreat 2027</span></div>
+    </div>
+    <div class="collage">
+      <div class="a"><img src="img/studio.jpg" alt="Classical Pilates apparatus inside The Workshop studio in Edmonds"></div>
+      <div class="tag"><b>Built around you</b>Private, duet and semi-private sessions, not a crowded class.</div>
+    </div>
+  </div>
+  <svg class="waves" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0 30 C 180 5, 360 55, 540 30 S 900 5, 1080 30 S 1350 50, 1440 28" fill="none" stroke="#B07A52" stroke-width="1.2"/><path d="M0 44 C 200 22, 380 64, 560 44 S 920 22, 1100 44 S 1360 60, 1440 42" fill="none" stroke="#1E3A4C" stroke-width="1"/></svg>
+</section>
+
+<div class="strip">
+  <div class="wrap">
+    <div><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#E2B58F" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg>Classical Pilates method</div>
+    <div><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#E2B58F" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>Private &amp; small-group teaching</div>
+    <div><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#E2B58F" stroke-width="1.6"><path d="M3 18h18M5 18V9h14v9M8 9V6h8v3"/></svg>Full apparatus studio</div>
+    <div><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#E2B58F" stroke-width="1.6"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Edmonds, Washington</div>
+  </div>
+</div>
+
+<section id="sessions">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Sessions</span>
+      <h2>Three ways to work with us</h2>
+      <p>Every session is taught on the classical apparatus with a teacher who knows your body, your history and your goals.</p>
+    </div>
+    <div class="cards">
+      <article class="card feat">
+        <span class="num">01</span>
+        <h3>Private</h3>
+        <div class="who">One-on-one</div>
+        <p>The full attention of your teacher for the whole hour. The best place to start, and the fastest way to progress.</p>
+        <ul><li>Program built around your body</li><li>Ideal for beginners and injury recovery</li><li>Hands-on, detailed cueing</li></ul>
+        <a class="more" href="#contact">Book a private →</a>
+      </article>
+      <article class="card">
+        <span class="num">02</span>
+        <h3>Duet</h3>
+        <div class="who">Two clients · one teacher</div>
+        <p>Train alongside a partner, friend or family member. Personal attention with a little shared motivation.</p>
+        <ul><li>Great for couples and friends</li><li>Each person follows their own work</li><li>Same classical apparatus</li></ul>
+        <a class="more" href="#contact">Book a duet →</a>
+      </article>
+      <article class="card">
+        <span class="num">03</span>
+        <h3>Semi-Private</h3>
+        <div class="who">Small group</div>
+        <p>A small group on the apparatus, each working their own program, with your teacher moving between you.</p>
+        <ul><li>For clients with a foundation</li><li>Builds independence in your practice</li><li>Small group, never crowded</li></ul>
+        <a class="more" href="#contact">Ask about semi-private →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="method" id="method">
+  <div class="wrap split">
+    <div class="photo-frame">
+      <img src="img/movement.jpg" alt="Classical Pilates movement taught at The Workshop">
+      <span class="cap">a different kind of Pilates</span>
+    </div>
+    <div>
+      <span class="eyebrow">The Classical Method</span>
+      <h2>The original work, taught with <em>care</em></h2>
+      <p style="color:var(--muted);font-size:18px;margin-top:20px">Classical Pilates follows the system as it was first taught: a set order of exercises that flows from one apparatus to the next and builds strength from the center out. It is precise, it is progressive, and it works.</p>
+      <div class="pillars">
+        <div><h4>Whole-body strength</h4><p>Every session works the body as one connected system.</p></div>
+        <div><h4>Taught, not followed</h4><p>Your teacher watches, corrects and adjusts the work as you go.</p></div>
+        <div><h4>The full apparatus</h4><p>Reformer, tower, chair and more, used the way they were designed.</p></div>
+        <div><h4>A practice for life</h4><p>Build a foundation that keeps you moving well for years.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="teacher" id="katie">
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">Meet Your Teacher</span>
+      <h2>Katie Kahumoku</h2>
+      <div class="quote">Classical Pilates, one person at a time.</div>
+      <p>Katie leads The Workshop and teaches the classical method one person at a time. Her sessions meet you where you are, whether it is your first time on a reformer or your thousandth.</p>
+      <p>Beyond the studio, she brings clients together for the Pilates Magic Retreat in France, a chance to deepen your practice somewhere unforgettable.</p>
+      <a class="btn btn-line" href="#contact" style="margin-top:14px">Book with Katie</a>
+    </div>
+    <img src="img/katie.jpg" alt="Katie Kahumoku, Pilates teacher at The Workshop Edmonds">
+  </div>
+</section>
+
+<section class="retreat" id="retreat">
+  <div class="wrap retreat-grid">
+    <div class="pics">
+      <img class="p1" src="img/france-coast.jpg" alt="Coastline in France near the Pilates Magic Retreat">
+      <img class="p2" src="img/retreat-courtyard.jpg" alt="Retreat guests gathered in a garden courtyard in France">
+      <div class="badge">France<br>2027</div>
+    </div>
+    <div>
+      <span class="eyebrow">Pilates Magic Retreat</span>
+      <h2>Take your practice <em>to France</em></h2>
+      <p>Pilates every day, time together in a beautiful old courtyard, and the French coast on your doorstep. Spaces are limited and guests apply to join.</p>
+      <ul>
+        <li><span>i</span>Daily classical Pilates sessions</li>
+        <li><span>ii</span>Small group, shared table, real connection</li>
+        <li><span>iii</span>Time to explore, rest and reset</li>
+      </ul>
+      <a class="btn btn-cream" href="https://www.theretreatatelier.fr/pilates-magic-2027" target="_blank" rel="noopener">Apply for the Retreat →</a>
+    </div>
+  </div>
+</section>
+
+<section id="start">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">New to The Workshop?</span>
+      <h2>Getting started is simple</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><h4>Reach out</h4><p>Send a request below or call. Tell us a little about you, your goals and any injuries.</p></div>
+      <div class="step"><h4>Your first private</h4><p>We learn how you move and introduce you to the classical apparatus at your pace.</p></div>
+      <div class="step"><h4>Build your practice</h4><p>Continue with privates, add a duet partner, or move into semi-private sessions.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div class="info">
+      <span class="eyebrow">Book a Session</span>
+      <h2>Start your practice</h2>
+      <p>Tell us what you are looking for and we will be in touch to find a time that works.</p>
+      <div class="row"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F6F1E9" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.4 1.8.7 2.7a2 2 0 01-.5 2.1L8 9.8a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.7.7a2 2 0 011.7 2z"/></svg></span><div><small>Call or text</small><b><a href="tel:+14255550148">(425) 555-0148</a></b></div></div>
+      <div class="row"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F6F1E9" stroke-width="1.8"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><small>Studio</small><b>Edmonds, Washington</b></div></div>
+      <div class="row"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F6F1E9" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="#F6F1E9"/></svg></span><div><small>Instagram</small><b><a href="https://www.instagram.com/theworkshopedmonds/" target="_blank" rel="noopener">@theworkshopedmonds</a></b></div></div>
+    </div>
+    <form id="bookform" novalidate>
+      <div class="fields">
+        <h3>Request a session</h3>
+        <p class="sub">Takes less than a minute.</p>
+        <div class="f2">
+          <label>Name<input name="name" required placeholder="Your name"></label>
+          <label>Phone<input name="phone" type="tel" placeholder="(425) 555-0000"></label>
+        </div>
+        <label>Email<input name="email" type="email" required placeholder="you@email.com"></label>
+        <label>Session type
+          <div class="opts">
+            <label><input type="radio" name="type" value="Private" checked><span>Private</span></label>
+            <label><input type="radio" name="type" value="Duet"><span>Duet</span></label>
+            <label><input type="radio" name="type" value="Semi-private"><span>Semi-private</span></label>
+            <label><input type="radio" name="type" value="Retreat"><span>Retreat info</span></label>
+          </div>
+        </label>
+        <label>Pilates experience
+          <select name="experience"><option>Brand new to Pilates</option><option>Some mat or reformer classes</option><option>Experienced in classical Pilates</option></select>
+        </label>
+        <label>Goals or injuries we should know about<textarea name="message" rows="3" placeholder="Optional"></textarea></label>
+        <button class="btn btn-dark" type="submit">Send Request</button>
+      </div>
+      <div class="thanks">
+        <h3>Thank you!</h3>
+        <p class="sub">Your request is in. We will be in touch soon to schedule your session.</p>
+      </div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <a href="#top" class="brand"><span class="mark">W</span><span><b>The Workshop</b><small style="color:#A9B9C3">Classical Pilates · Edmonds</small></span></a>
+      <nav><a href="#sessions">Sessions</a><a href="#method">The Method</a><a href="#katie">Meet Katie</a><a href="#retreat">France 2027</a><a href="#contact">Contact</a></nav>
+      <div><a href="tel:+14255550148">(425) 555-0148</a><br>Edmonds, WA</div>
+    </div>
+    <div class="legal">© 2026 The Workshop. Classical Pilates in Edmonds, Washington.</div>
+  </div>
+</footer>
+
+<div class="mbar">
+  <a class="btn btn-line" href="tel:+14255550148">Call</a>
+  <a class="btn btn-dark" href="#contact">Book a Session</a>
+</div>
+
+<script>
+document.getElementById('bookform').addEventListener('submit',function(e){
+  e.preventDefault();
+  var f=this;
+  if(!f.name.value.trim()||!f.email.value.trim()){f.reportValidity&&f.reportValidity();return;}
+  f.querySelector('.fields').style.display='none';
+  f.querySelector('.thanks').style.display='block';
+});
+</script>
+</body>
+</html>
