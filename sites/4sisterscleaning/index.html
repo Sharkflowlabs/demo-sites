@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>4 Sisters Cleaning Company | House Cleaning in New Jersey</title>
+<meta name="description" content="Licensed and insured house cleaning in New Jersey. Regular, deep, Airbnb turnover, move-in/move-out and post-construction cleaning for homes of every size. Free estimates.">
+<link rel="icon" href="img/logo.png">
+<link rel="stylesheet" href="fonts.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HouseCleaningService","name":"4 Sisters Cleaning Company","telephone":"+1-609-555-0148","areaServed":"New Jersey","image":"img/logo.png","priceRange":"Free estimates"}
+</script>
+<style>
+:root{
+  --plum:#5b1f73; --plum-d:#3a1150; --magenta:#d6267f; --pink:#f25fa6; --blush:#fde8f2;
+  --navy:#1d3f66; --sky:#5fc3ea; --sky-l:#e3f5fc; --ink:#2a1a35; --muted:#6c5a78; --line:#efdbe8; --white:#fff;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Nunito',system-ui,sans-serif;color:var(--ink);background:#fffafc;line-height:1.6;font-size:17px}
+h1,h2,h3,.btn,.brand-txt{font-family:'Fredoka','Nunito',sans-serif}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:78px;gap:20px}
+.nav .logo img{height:62px;width:auto}
+.nav ul{display:flex;gap:28px;list-style:none;font-weight:700;color:var(--plum)}
+.nav ul a:hover{color:var(--magenta)}
+.nav-cta{display:flex;align-items:center;gap:14px}
+.phone{font-weight:800;color:var(--navy);display:flex;align-items:center;gap:6px;white-space:nowrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:600;font-size:17px;padding:14px 26px;border-radius:999px;border:0;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-pink{background:linear-gradient(135deg,var(--magenta),var(--pink));color:#fff;box-shadow:0 10px 24px -8px rgba(214,38,127,.55)}
+.btn-ghost{background:#fff;color:var(--plum);border:2px solid var(--plum)}
+.btn-white{background:#fff;color:var(--plum)}
+
+/* hero */
+.hero{position:relative;overflow:hidden;background:radial-gradient(1200px 500px at 85% -10%,var(--sky-l),transparent 60%),linear-gradient(180deg,#fff 0%,var(--blush) 100%);padding:70px 0 90px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center;position:relative;z-index:2}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);color:var(--magenta);font-weight:800;font-size:14px;padding:7px 14px;border-radius:999px;letter-spacing:.3px}
+.hero h1{font-size:clamp(40px,5.4vw,66px);line-height:1.04;color:var(--plum-d);margin:18px 0 18px;font-weight:700}
+.hero h1 em{font-style:normal;background:linear-gradient(120deg,var(--magenta),var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.lead{font-size:20px;color:var(--muted);max-width:540px}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap;margin:30px 0 26px}
+.ticks{display:flex;flex-wrap:wrap;gap:10px 22px;font-weight:700;color:var(--navy);font-size:15px}
+.ticks span{display:flex;align-items:center;gap:7px}
+.ticks svg{flex:none}
+.hero-card{position:relative;background:#fff;border-radius:36px;padding:34px 30px 30px;box-shadow:0 30px 60px -25px rgba(91,31,115,.35);text-align:center}
+.hero-card img{width:88%;margin:0 auto}
+.hero-card .tag{margin-top:18px;font-family:'Fredoka';font-weight:600;color:var(--plum);font-size:20px}
+.hero-card .chips{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:14px}
+.chip{background:var(--blush);color:var(--magenta);font-weight:800;font-size:13px;padding:6px 12px;border-radius:999px}
+.chip.b{background:var(--sky-l);color:var(--navy)}
+.bubble{position:absolute;border-radius:50%;background:radial-gradient(circle at 32% 30%,#fff 0 14%,rgba(255,255,255,.4) 15%,rgba(95,195,234,.28) 55%,rgba(95,195,234,.5) 100%);border:1.5px solid rgba(255,255,255,.8);z-index:1;animation:float 9s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-18px)}}
+.wave{position:absolute;left:0;right:0;bottom:-1px;z-index:2}
+
+/* sections */
+section{padding:90px 0}
+.sec-head{text-align:center;max-width:680px;margin:0 auto 50px}
+.kicker{color:var(--magenta);font-weight:800;text-transform:uppercase;letter-spacing:1.5px;font-size:13px}
+h2{font-size:clamp(32px,4vw,46px);line-height:1.1;color:var(--plum-d);margin:10px 0 14px;font-weight:700}
+.sec-head p{color:var(--muted);font-size:18px}
+
+/* services */
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.svc{background:#fff;border:1px solid var(--line);border-radius:26px;padding:30px 26px;transition:transform .2s,box-shadow .2s;position:relative;overflow:hidden}
+.svc:hover{transform:translateY(-4px);box-shadow:0 22px 40px -22px rgba(91,31,115,.4)}
+.svc .ic{width:62px;height:62px;border-radius:18px;display:grid;place-items:center;margin-bottom:18px}
+.svc h3{font-size:22px;color:var(--plum-d);margin-bottom:8px;font-weight:600}
+.svc p{color:var(--muted);font-size:16px}
+.svc.feature{background:linear-gradient(150deg,var(--plum) 0%,var(--magenta) 120%);color:#fff;border:0}
+.svc.feature h3,.svc.feature p{color:#fff}
+.svc.feature p{opacity:.9}
+.svc.feature .ic{background:rgba(255,255,255,.18)!important}
+.svc a.more{display:inline-block;margin-top:14px;font-weight:800;color:var(--magenta);font-size:15px}
+.svc.feature a.more{color:#fff}
+
+/* results */
+.results{background:linear-gradient(180deg,var(--blush),#fff)}
+.res-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
+.ba{position:relative;border-radius:28px;overflow:hidden;box-shadow:0 30px 60px -28px rgba(42,26,53,.5);background:#ddd}
+.ba img{width:100%;aspect-ratio:699/404;object-fit:cover}
+.ba .lbl{position:absolute;top:16px;font-family:'Fredoka';font-weight:600;font-size:15px;padding:7px 16px;border-radius:999px;color:#fff}
+.ba .l{left:16px;background:var(--navy)} .ba .r{right:16px;background:var(--magenta)}
+.ba .mid{position:absolute;top:0;bottom:0;left:50%;width:3px;background:#fff;transform:translateX(-50%)}
+.res-copy h2{text-align:left}
+.res-copy p{color:var(--muted);margin-bottom:16px}
+.res-list{list-style:none;margin:18px 0 26px;display:grid;gap:10px}
+.res-list li{display:flex;gap:10px;align-items:flex-start;font-weight:700;color:var(--ink)}
+
+/* why */
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.why{text-align:center;padding:30px 20px;border-radius:24px;background:#fff;border:1px solid var(--line)}
+.why .num{width:70px;height:70px;border-radius:50%;margin:0 auto 14px;display:grid;place-items:center;background:var(--sky-l)}
+.why h3{color:var(--plum-d);font-size:19px;margin-bottom:6px;font-weight:600}
+.why p{color:var(--muted);font-size:15px}
+
+/* steps */
+.steps{background:var(--plum-d);color:#fff;position:relative;overflow:hidden}
+.steps h2{color:#fff}
+.steps .sec-head p{color:#e9d6f1}
+.step-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;position:relative;z-index:2}
+.step{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:24px;padding:30px}
+.step .n{font-family:'Fredoka';font-weight:700;font-size:44px;line-height:1;background:linear-gradient(120deg,var(--pink),var(--sky));-webkit-background-clip:text;background-clip:text;color:transparent}
+.step h3{margin:12px 0 6px;font-size:21px;font-weight:600}
+.step p{color:#e9d6f1;font-size:16px}
+
+/* review */
+.review-box{max-width:820px;margin:0 auto;display:grid;grid-template-columns:auto 1fr;gap:34px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:32px;padding:40px;box-shadow:0 24px 50px -30px rgba(91,31,115,.35)}
+.phone-msg{width:230px;background:#16121b;border-radius:28px;padding:16px 14px 22px;color:#fff;font-size:13.5px;line-height:1.45}
+.phone-msg .t{text-align:center;color:#9a90a6;font-size:11px;margin-bottom:10px}
+.phone-msg .bub{background:#2c2733;border-radius:16px 16px 16px 4px;padding:11px 13px}
+.review-box blockquote{font-family:'Fredoka';font-size:24px;line-height:1.35;color:var(--plum-d);font-weight:500}
+.stars{color:#f6b93b;font-size:22px;letter-spacing:2px;margin-bottom:10px}
+.review-box cite{display:block;margin-top:14px;font-style:normal;color:var(--muted);font-weight:700}
+
+/* area */
+.area-wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.towns{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.towns span{background:#fff;border:1px solid var(--line);padding:9px 16px;border-radius:999px;font-weight:700;color:var(--plum);font-size:15px}
+.nj{background:var(--sky-l);border-radius:32px;padding:30px;display:grid;place-items:center}
+
+/* quote */
+.quote{background:linear-gradient(140deg,var(--plum-d) 0%,var(--plum) 55%,var(--magenta) 130%);color:#fff;position:relative;overflow:hidden}
+.q-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:50px;align-items:start;position:relative;z-index:2}
+.quote h2{color:#fff;text-align:left}
+.quote .lead{color:#f3e2f8;font-size:18px;margin-bottom:24px}
+.q-contact{display:grid;gap:14px;margin-top:20px}
+.q-contact a,.q-contact div{display:flex;align-items:center;gap:12px;font-weight:700;font-size:18px}
+.q-contact .ico{width:46px;height:46px;border-radius:14px;background:rgba(255,255,255,.14);display:grid;place-items:center;flex:none}
+form{background:#fff;color:var(--ink);border-radius:28px;padding:32px;box-shadow:0 30px 60px -20px rgba(0,0,0,.4)}
+form h3{font-size:24px;color:var(--plum-d);margin-bottom:4px;font-weight:600}
+form .sub{color:var(--muted);font-size:15px;margin-bottom:18px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{display:block;font-weight:800;font-size:14px;color:var(--plum-d);margin:12px 0 6px}
+input,select,textarea{width:100%;font:inherit;font-size:16px;padding:13px 14px;border:1.5px solid var(--line);border-radius:14px;background:#fffafc;color:var(--ink)}
+input:focus,select:focus,textarea:focus{outline:0;border-color:var(--magenta)}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pills input{display:none}
+.pills label{margin:0;font-weight:700;font-size:14px;padding:9px 14px;border-radius:999px;border:1.5px solid var(--line);cursor:pointer;color:var(--plum)}
+.pills input:checked+label{background:var(--magenta);border-color:var(--magenta);color:#fff}
+form .btn{width:100%;margin-top:20px}
+.fine{font-size:13px;color:var(--muted);text-align:center;margin-top:10px}
+
+footer{background:#1a0b25;color:#cdbcd8;padding:50px 0 110px;font-size:15px}
+.f-grid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:center}
+.f-logo{background:#fff;border-radius:20px;padding:10px 16px;display:inline-block}
+.f-logo img{height:60px}
+footer a:hover{color:#fff}
+
+/* mobile sticky */
+.mbar{display:none}
+@media(max-width:980px){
+  .nav ul{display:none}
+  .hero .wrap,.res-grid,.q-grid,.area-wrap{grid-template-columns:1fr}
+  .hero{padding:40px 0 80px}
+  .hero-card{max-width:440px;margin:0 auto}
+  .svc-grid{grid-template-columns:1fr 1fr}
+  .why-grid{grid-template-columns:1fr 1fr}
+  .step-grid{grid-template-columns:1fr}
+  .review-box{grid-template-columns:1fr;justify-items:center;text-align:center;padding:30px 22px}
+  .res-copy h2,.quote h2{text-align:left}
+}
+@media(max-width:640px){
+  body{font-size:16px}
+  section{padding:64px 0}
+  .nav{height:68px}.nav .logo img{height:50px}
+  .nav-cta .phone{display:none}
+  .nav-cta .btn{padding:11px 18px;font-size:15px}
+  .svc-grid,.why-grid,.row{grid-template-columns:1fr}
+  .hero-btns .btn{flex:1}
+  form{padding:24px 18px}
+  .mbar{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line);box-shadow:0 -8px 20px rgba(0,0,0,.08)}
+  .mbar .btn{padding:13px 10px;font-size:16px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#top" aria-label="4 Sisters Cleaning Company home"><img src="img/logo.png" alt="4 Sisters Cleaning Company logo"></a>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#why">Why Us</a></li>
+      <li><a href="#area">Service Area</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="phone" href="tel:+16095550148"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>(609) 555-0148</a>
+      <a class="btn btn-pink" href="#quote">Free Estimate</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <span class="bubble" style="width:90px;height:90px;left:4%;top:12%"></span>
+  <span class="bubble" style="width:40px;height:40px;left:44%;top:8%;animation-delay:-3s"></span>
+  <span class="bubble" style="width:130px;height:130px;right:-30px;top:58%;animation-delay:-5s"></span>
+  <span class="bubble" style="width:26px;height:26px;left:38%;bottom:22%;animation-delay:-2s"></span>
+  <span class="bubble" style="width:58px;height:58px;left:8%;bottom:16%;animation-delay:-6s"></span>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">✦ Licensed &amp; insured in New Jersey</span>
+      <h1>House cleaning in New Jersey, done <em>like family would.</em></h1>
+      <p class="lead">Regular, deep, Airbnb and post-construction cleaning for homes of every size. Four sisters, one standard: a spotless home you can actually relax in.</p>
+      <div class="hero-btns">
+        <a class="btn btn-pink" href="#quote">Get My Free Estimate</a>
+        <a class="btn btn-ghost" href="tel:+16095550148">Call or Text</a>
+      </div>
+      <div class="ticks">
+        <span><svg width="20" height="20" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#d6267f"/><path d="M7 12.5l3.2 3L17 9" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>All home sizes</span>
+        <span><svg width="20" height="20" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#d6267f"/><path d="M7 12.5l3.2 3L17 9" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Free estimates</span>
+        <span><svg width="20" height="20" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#d6267f"/><path d="M7 12.5l3.2 3L17 9" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Eco-friendly products available</span>
+      </div>
+    </div>
+    <div class="hero-card">
+      <img src="img/logo.png" alt="4 Sisters Cleaning Company">
+      <div class="tag">Clean space. Better life.</div>
+      <div class="chips"><span class="chip">Homes</span><span class="chip b">Airbnbs</span><span class="chip">Move-outs</span><span class="chip b">Post-construction</span></div>
+    </div>
+  </div>
+  <svg class="wave" viewBox="0 0 1440 70" preserveAspectRatio="none" height="60" width="100%"><path d="M0 40 C 320 80 520 0 820 30 S 1260 70 1440 20 V70 H0Z" fill="#fffafc"/></svg>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">What we clean</span>
+      <h2>Cleaning services for every kind of home</h2>
+      <p>One call covers it. Tell us what you need and we'll build a plan around your space and your schedule.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc feature">
+        <div class="ic"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg></div>
+        <h3>Regular House Cleaning</h3>
+        <p>Weekly, bi-weekly or monthly visits that keep kitchens, bathrooms, floors and bedrooms fresh without you lifting a finger.</p>
+        <a class="more" href="#quote">Book recurring cleaning →</a>
+      </div>
+      <div class="svc">
+        <div class="ic" style="background:var(--blush)"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#d6267f" stroke-width="2"><path d="M12 3l1.8 4.6L18 9l-4.2 1.4L12 15l-1.8-4.6L6 9l4.2-1.4z"/><path d="M19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg></div>
+        <h3>Deep Cleaning</h3>
+        <p>Top-to-bottom detail work: baseboards, cabinet fronts, appliances, grout and the spots a quick clean skips.</p>
+        <a class="more" href="#quote">Get a deep clean quote →</a>
+      </div>
+      <div class="svc">
+        <div class="ic" style="background:var(--sky-l)"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1d3f66" stroke-width="2"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18"/></svg></div>
+        <h3>Airbnb &amp; Rental Turnovers</h3>
+        <p>Fast, reliable resets between guests: fresh linens, spotless bathrooms and a five-star first impression every check-in.</p>
+        <a class="more" href="#quote">Set up turnovers →</a>
+      </div>
+      <div class="svc">
+        <div class="ic" style="background:var(--sky-l)"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1d3f66" stroke-width="2"><path d="M2 20h20M5 20V9l7-5 7 5v11"/><path d="M9 20v-5h6v5"/><path d="M14 2l2 3"/></svg></div>
+        <h3>Post-Construction Cleaning</h3>
+        <p>Renovation done? We clear the dust, debris and residue from every surface so your new space is ready to live in.</p>
+        <a class="more" href="#quote">Get a post-reno quote →</a>
+      </div>
+      <div class="svc">
+        <div class="ic" style="background:var(--blush)"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#d6267f" stroke-width="2"><path d="M3 7h12v10H3zM15 10h4l2 3v4h-6"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg></div>
+        <h3>Move-In / Move-Out</h3>
+        <p>Empty-home cleaning inside cabinets, closets and appliances. Get your deposit back or start fresh in your new place.</p>
+        <a class="more" href="#quote">Plan my move clean →</a>
+      </div>
+      <div class="svc">
+        <div class="ic" style="background:var(--sky-l)"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1d3f66" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M12 3v18M3 12h18"/></svg></div>
+        <h3>Windows &amp; Add-Ons</h3>
+        <p>Streak-free windows, inside the fridge and oven, and other extras you can add to any visit.</p>
+        <a class="more" href="#quote">Ask about add-ons →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="results" id="results">
+  <div class="wrap res-grid">
+    <div class="ba">
+      <img src="img/tile-before-after.jpg" alt="Tile floor before and after cleaning by 4 Sisters Cleaning Company in New Jersey" width="699" height="404">
+      <span class="mid"></span>
+      <span class="lbl l">Before</span><span class="lbl r">After</span>
+    </div>
+    <div class="res-copy">
+      <span class="kicker">Real results</span>
+      <h2>Clean floors, better spaces</h2>
+      <p>Same floor, same day. Dull, stained tile and grout brought back to a bright, even shine. This is the level of detail we bring to every room.</p>
+      <ul class="res-list">
+        <li><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#5fc3ea"/><path d="M7 12.5l3.2 3L17 9" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Meticulous attention to detail</li>
+        <li><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#5fc3ea"/><path d="M7 12.5l3.2 3L17 9" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Fully teamed service, done faster</li>
+        <li><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#5fc3ea"/><path d="M7 12.5l3.2 3L17 9" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Spotless. Fresh. Inviting.</li>
+      </ul>
+      <a class="btn btn-pink" href="#quote">Get the same results at home</a>
+    </div>
+  </div>
+</section>
+
+<section id="why">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Why 4 Sisters</span>
+      <h2>A cleaning team you can trust with your keys</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why"><div class="num"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#1d3f66" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></div><h3>Licensed &amp; Insured</h3><p>Your home and belongings are protected on every visit.</p></div>
+      <div class="why"><div class="num" style="background:var(--blush)"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#d6267f" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"/></svg></div><h3>Family-Run</h3><p>Four sisters who treat your home the way they treat their own.</p></div>
+      <div class="why"><div class="num"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#1d3f66" stroke-width="2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.2 1.4 8-.8 5-4.9 10-9.4 10z"/><path d="M2 21c0-3 1.9-5.4 5-6"/></svg></div><h3>Eco-Friendly Options</h3><p>Ask for green products for kids, pets and allergy-prone homes.</p></div>
+      <div class="why"><div class="num" style="background:var(--blush)"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#d6267f" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/></svg></div><h3>Satisfaction Guaranteed</h3><p>Not happy with a spot? Tell us and we'll make it right.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="review-box">
+      <div class="phone-msg">
+        <div class="t">Today 9:15 AM</div>
+        <div class="bub">I just want to tell you how pleased I am with the cleaners you sent. They did an excellent job. Same time next week and every week until I leave for the season…</div>
+      </div>
+      <div>
+        <div class="stars">★★★★★</div>
+        <blockquote>“They did an excellent job. Same time next week and every week until I leave for the season.”</blockquote>
+        <cite>A message that made our day, from a 4 Sisters client</cite>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="steps">
+  <span class="bubble" style="width:120px;height:120px;right:6%;top:-30px;opacity:.5"></span>
+  <span class="bubble" style="width:50px;height:50px;left:5%;bottom:30px;opacity:.5;animation-delay:-4s"></span>
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker" style="color:var(--pink)">How it works</span>
+      <h2>A spotless home in 3 easy steps</h2>
+      <p>No contracts, no hassle. Just a clean home on your schedule.</p>
+    </div>
+    <div class="step-grid">
+      <div class="step"><div class="n">01</div><h3>Request your free estimate</h3><p>Fill out the short form or call/text us. Tell us your home size and what you need.</p></div>
+      <div class="step"><div class="n">02</div><h3>Pick a day that works</h3><p>One-time, weekly, bi-weekly or monthly. We work around your calendar.</p></div>
+      <div class="step"><div class="n">03</div><h3>Come home to clean</h3><p>Our team arrives on time, cleans top to bottom and leaves your home fresh.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="area">
+  <div class="wrap area-wrap">
+    <div>
+      <span class="kicker">Service area</span>
+      <h2>Proudly cleaning homes across New Jersey</h2>
+      <p style="color:var(--muted)">From apartments and townhomes to large family homes and short-term rentals, we serve homeowners, renters, Airbnb hosts and builders throughout the NJ area. Not sure if we cover your town? Just ask.</p>
+      <div class="towns"><span>Trenton</span><span>Hamilton</span><span>Princeton</span><span>Ewing</span><span>Lawrenceville</span><span>Robbinsville</span><span>Mercer County</span><span>+ surrounding NJ</span></div>
+    </div>
+    <div class="nj">
+      <svg viewBox="0 0 300 300" width="100%" style="max-width:340px" aria-hidden="true">
+        <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b1f73"/><stop offset="1" stop-color="#d6267f"/></linearGradient></defs>
+        <circle cx="150" cy="150" r="130" fill="#fff"/>
+        <circle cx="150" cy="150" r="96" fill="none" stroke="#5fc3ea" stroke-width="2" stroke-dasharray="4 8"/>
+        <circle cx="150" cy="150" r="60" fill="none" stroke="#f25fa6" stroke-width="2" stroke-dasharray="4 8"/>
+        <path d="M150 92c-22 0-38 16-38 37 0 27 38 70 38 70s38-43 38-70c0-21-16-37-38-37z" fill="url(#g)"/>
+        <path d="M134 132l16-13 16 13v18h-32z" fill="#fff"/><rect x="146" y="139" width="8" height="11" fill="#d6267f"/>
+        <circle cx="70" cy="90" r="12" fill="#e3f5fc" stroke="#5fc3ea"/><circle cx="235" cy="205" r="16" fill="#e3f5fc" stroke="#5fc3ea"/><circle cx="222" cy="78" r="8" fill="#e3f5fc" stroke="#5fc3ea"/>
+        <text x="150" y="238" text-anchor="middle" font-family="Fredoka,sans-serif" font-weight="600" font-size="20" fill="#3a1150">NJ Area</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="quote" id="quote">
+  <span class="bubble" style="width:110px;height:110px;left:-30px;top:40px;opacity:.45"></span>
+  <span class="bubble" style="width:44px;height:44px;left:30%;bottom:40px;opacity:.45;animation-delay:-3s"></span>
+  <div class="wrap q-grid">
+    <div>
+      <span class="kicker" style="color:var(--sky)">Free estimate</span>
+      <h2>Let us make it shine</h2>
+      <p class="lead">Tell us a little about your home and we'll get back to you with a free, no-pressure estimate, usually the same day.</p>
+      <div class="q-contact">
+        <a href="tel:+16095550148"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>Call or text (609) 555-0148</a>
+        <div><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2"><path d="M12 22s8-6.5 8-13a8 8 0 0 0-16 0c0 6.5 8 13 8 13z"/><circle cx="12" cy="9" r="3"/></svg></span>Serving the NJ area</div>
+        <div><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/></svg></span>Licensed &amp; insured</div>
+      </div>
+    </div>
+    <form onsubmit="event.preventDefault();this.innerHTML='<h3>Thank you! 🫧</h3><p class=sub style=margin-top:8px>Your request is in. We\'ll reach out shortly with your free estimate.</p>'">
+      <h3>Get your free estimate</h3>
+      <p class="sub">Takes about 30 seconds.</p>
+      <label>Type of cleaning</label>
+      <div class="pills">
+        <input type="radio" name="svc" id="s1" checked><label for="s1">Regular</label>
+        <input type="radio" name="svc" id="s2"><label for="s2">Deep clean</label>
+        <input type="radio" name="svc" id="s3"><label for="s3">Airbnb</label>
+        <input type="radio" name="svc" id="s4"><label for="s4">Move in/out</label>
+        <input type="radio" name="svc" id="s5"><label for="s5">Post-construction</label>
+      </div>
+      <div class="row">
+        <div><label for="bd">Bedrooms</label><select id="bd"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5+</option></select></div>
+        <div><label for="ba">Bathrooms</label><select id="ba"><option>1</option><option selected>2</option><option>3</option><option>4+</option></select></div>
+      </div>
+      <div class="row">
+        <div><label for="fq">How often?</label><select id="fq"><option>One-time</option><option>Weekly</option><option>Every 2 weeks</option><option>Monthly</option></select></div>
+        <div><label for="tw">Town / ZIP</label><input id="tw" placeholder="e.g. Hamilton 08619" required></div>
+      </div>
+      <div class="row">
+        <div><label for="nm">Name</label><input id="nm" required></div>
+        <div><label for="ph">Phone</label><input id="ph" type="tel" required></div>
+      </div>
+      <button class="btn btn-pink" type="submit">Send My Free Estimate Request</button>
+      <p class="fine">We'll never share your info. No spam, ever.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap f-grid">
+    <div><span class="f-logo"><img src="img/logo.png" alt="4 Sisters Cleaning Company"></span></div>
+    <div>Residential · Deep · Airbnb · Move-In/Out · Post-Construction<br>Licensed &amp; insured · Serving the NJ area</div>
+    <div><a href="tel:+16095550148" style="font-weight:800;color:#fff;font-size:18px">(609) 555-0148</a><br>© 2026 4 Sisters Cleaning Company</div>
+  </div>
+</footer>
+
+<div class="mbar">
+  <a class="btn btn-ghost" href="tel:+16095550148">Call Now</a>
+  <a class="btn btn-pink" href="#quote">Free Estimate</a>
+</div>
+</body>
+</html>
