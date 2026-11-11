@@ -25,7 +25,7 @@ jobs:
           for s in $SITES; do
             [ -d "sites/$s" ] || continue
             echo "== $s =="
-            npx -y wrangler@3 pages project create "$s" --production-branch main 2>/dev/null || true
-            npx -y wrangler@3 pages deploy "sites/$s" --project-name "$s" --branch main --commit-dirty=true
+            npx -y wrangler@4 pages project create "$s" --production-branch main 2>/dev/null || true
+            npx -y wrangler@4 pages deploy "sites/$s" --project-name "$s" --branch main --commit-dirty=true
             echo "LIVE: https://$s.pages.dev"
           done
