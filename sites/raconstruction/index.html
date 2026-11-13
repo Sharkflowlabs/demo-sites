@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>R.A. Construction Inc | Kitchen, Bath & Remodeling Contractor | Los Angeles & Orange County</title>
+<meta name="description" content="R.A. Construction Inc builds kitchens, bathrooms, room additions and full remodels for homes and businesses across Los Angeles & Orange County. Foundations to finishes. Free estimates.">
+<link rel="icon" href="img/favicon.png">
+<link rel="stylesheet" href="fonts.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"GeneralContractor","name":"R.A. Construction Inc","slogan":"Foundations to Finishes","telephone":"(213) 555-0148","areaServed":["Los Angeles County, CA","Orange County, CA"],"image":"img/logo.png"}
+</script>
+<style>
+:root{--red:#EE1C25;--red-d:#C3121A;--bg:#0B0B0C;--bg2:#141416;--bg3:#1C1C1F;--line:#2A2A2E;--txt:#F4F4F5;--mut:#A1A1AA;--head:'Barlow Condensed',Impact,sans-serif;--body:'Inter',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--txt);font-family:var(--body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1240px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--head);text-transform:uppercase;line-height:1.02;letter-spacing:.01em}
+h2{font-size:clamp(34px,4.6vw,56px);font-weight:800}
+h3{font-size:24px;font-weight:700}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--red);font-family:var(--head);font-weight:700;letter-spacing:.18em;text-transform:uppercase;font-size:15px;margin-bottom:14px}
+.eyebrow:before{content:"";width:28px;height:3px;background:var(--red)}
+.lead{color:var(--mut);font-size:18px;max-width:640px}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--head);font-weight:700;font-size:19px;text-transform:uppercase;letter-spacing:.06em;padding:15px 26px;border-radius:4px;transition:.2s;cursor:pointer;border:0}
+.btn-red{background:var(--red);color:#fff}.btn-red:hover{background:var(--red-d);transform:translateY(-2px)}
+.btn-ghost{border:2px solid #fff3;color:#fff}.btn-ghost:hover{border-color:#fff}
+.btn svg{width:20px;height:20px}
+/* top bar */
+.topbar{background:var(--red);font-size:13.5px;font-weight:600}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;height:38px}
+.topbar span{opacity:.95}
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(11,11,12,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:84px;gap:24px}
+.brand{display:flex;align-items:center;gap:14px}
+.brand img{height:54px}
+.brand b{font-family:var(--head);font-weight:800;font-size:25px;letter-spacing:.02em;line-height:1;display:block}
+.brand small{display:block;font-family:var(--head);color:var(--red);font-weight:700;letter-spacing:.2em;font-size:12.5px;margin-top:3px}
+nav{display:flex;gap:30px;font-weight:600;font-size:15px}
+nav a{color:#d4d4d8}nav a:hover{color:var(--red)}
+.hcta{display:flex;align-items:center;gap:18px}
+.hphone{display:flex;align-items:center;gap:10px;font-weight:700}
+.hphone i{width:40px;height:40px;border-radius:50%;background:var(--bg3);display:grid;place-items:center;border:1px solid var(--line)}
+.hphone i svg{width:18px;height:18px;color:var(--red)}
+.hphone small{display:block;font-size:11.5px;color:var(--mut);font-weight:600;text-transform:uppercase;letter-spacing:.08em}
+.hcta .btn{padding:12px 20px;font-size:17px}
+/* hero */
+.hero{position:relative;overflow:hidden;padding:72px 0 84px;background:radial-gradient(900px 500px at 0% 0%,#3a080c 0%,transparent 60%),var(--bg)}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(46px,6.2vw,84px);font-weight:800}
+.hero h1 em{font-style:normal;color:var(--red)}
+.hero .lead{margin:22px 0 32px}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap}
+.chips{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:34px;color:#d4d4d8;font-size:14.5px;font-weight:600}
+.chips span{display:flex;align-items:center;gap:8px}
+.chips svg{width:18px;height:18px;color:var(--red)}
+.hero-art{position:relative;height:600px}
+.hero-art .a{position:absolute;right:0;top:0;width:74%;height:88%;object-fit:cover;border-radius:6px;box-shadow:0 30px 80px #000}
+.hero-art .b{position:absolute;left:0;bottom:0;width:46%;height:52%;object-fit:cover;border-radius:6px;border:6px solid var(--bg);box-shadow:0 20px 60px #000}
+.hero-art .tag{position:absolute;right:18px;bottom:96px;background:var(--red);padding:14px 18px;border-radius:4px;font-family:var(--head);text-transform:uppercase;font-weight:700;line-height:1.1;font-size:15px;letter-spacing:.06em}
+.hero-art .tag b{display:block;font-size:30px;letter-spacing:0}
+.hero-art .bar{position:absolute;left:12%;top:8%;width:6px;height:34%;background:var(--red)}
+/* strip */
+.strip{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.strip div{padding:26px 22px;border-right:1px solid var(--line);display:flex;gap:14px;align-items:center}
+.strip div:last-child{border-right:0}
+.strip svg{width:34px;height:34px;color:var(--red);flex:none}
+.strip b{font-family:var(--head);text-transform:uppercase;font-size:20px;display:block;line-height:1.1}
+.strip small{color:var(--mut);font-size:13.5px}
+section{padding:100px 0}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:48px;flex-wrap:wrap}
+/* services */
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--bg2);border:1px solid var(--line);border-radius:6px;overflow:hidden;transition:.25s;display:flex;flex-direction:column}
+.card:hover{border-color:var(--red);transform:translateY(-4px)}
+.card .ph{height:230px;overflow:hidden;position:relative}
+.card .ph img{width:100%;height:100%;object-fit:cover;transition:.5s}
+.card:hover .ph img{transform:scale(1.05)}
+.card .ph.icon{display:grid;place-items:center;background:linear-gradient(135deg,#1f0a0c,#121214)}
+.card .ph.icon svg{width:84px;height:84px;color:var(--red);opacity:.9}
+.card .num{position:absolute;left:16px;top:16px;background:var(--red);font-family:var(--head);font-weight:800;padding:2px 10px;border-radius:3px;font-size:16px}
+.card .bd{padding:24px 24px 26px;flex:1;display:flex;flex-direction:column}
+.card p{color:var(--mut);font-size:15px;margin:8px 0 16px;flex:1}
+.card a.more{color:var(--red);font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.08em}
+/* before after */
+.ba-sec{background:var(--bg2)}
+.ba-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.ba{position:relative;aspect-ratio:4/5;border-radius:6px;overflow:hidden;cursor:ew-resize;user-select:none;border:1px solid var(--line)}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.ba .before{clip-path:inset(0 50% 0 0)}
+.ba .handle{position:absolute;top:0;bottom:0;left:50%;width:3px;background:#fff;transform:translateX(-50%);pointer-events:none}
+.ba .handle:after{content:"‹ ›";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:44px;height:44px;border-radius:50%;background:var(--red);display:grid;place-items:center;font-weight:800;font-size:18px;letter-spacing:2px;box-shadow:0 4px 20px #0008}
+.ba .lb{position:absolute;bottom:12px;font-family:var(--head);font-weight:700;text-transform:uppercase;font-size:14px;letter-spacing:.1em;padding:4px 10px;border-radius:3px;background:#000b}
+.ba .lb.l{left:12px}.ba .lb.r{right:12px;background:var(--red)}
+.ba-cap{margin-top:12px;font-weight:600;font-size:15px}
+.ba-cap small{display:block;color:var(--mut);font-weight:500;font-size:13.5px}
+/* commercial */
+.comm{display:grid;grid-template-columns:1.25fr 1fr;gap:0;background:var(--bg3);border-radius:8px;overflow:hidden;border:1px solid var(--line)}
+.comm img{width:100%;height:100%;object-fit:cover;min-height:460px}
+.comm .tx{padding:56px 52px;display:flex;flex-direction:column;justify-content:center}
+.comm ul{list-style:none;margin:22px 0 30px;display:grid;gap:12px}
+.comm li{display:flex;gap:12px;align-items:flex-start;color:#d4d4d8}
+.comm li:before{content:"";width:9px;height:9px;background:var(--red);margin-top:8px;flex:none;transform:rotate(45deg)}
+/* process */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;counter-reset:s}
+.step{padding:30px 26px;border-top:3px solid var(--red);background:var(--bg2);border-radius:0 0 6px 6px}
+.step:before{counter-increment:s;content:"0" counter(s);font-family:var(--head);font-weight:800;font-size:46px;color:#ffffff22;display:block;line-height:1;margin-bottom:10px}
+.step p{color:var(--mut);font-size:15px;margin-top:8px}
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:240px;gap:14px}
+.gal figure{position:relative;overflow:hidden;border-radius:6px}
+.gal figure.t{grid-row:span 2}
+.gal img{width:100%;height:100%;object-fit:cover;transition:.5s}
+.gal figure:hover img{transform:scale(1.06)}
+.gal figcaption{position:absolute;left:0;right:0;bottom:0;padding:30px 16px 14px;background:linear-gradient(transparent,#000d);font-weight:600;font-size:14.5px}
+/* area */
+.area{background:linear-gradient(120deg,#1a0507,#0B0B0C 60%)}
+.area .wrap{display:grid;grid-template-columns:1fr 1.2fr;gap:60px;align-items:center}
+.towns{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.towns span{background:#ffffff08;border:1px solid var(--line);padding:11px 14px;border-radius:4px;font-weight:600;font-size:14.5px;display:flex;gap:8px;align-items:center}
+.towns span:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--red)}
+.counties{display:flex;gap:14px;margin-top:28px}
+.counties div{flex:1;background:var(--bg2);border:1px solid var(--line);border-left:4px solid var(--red);padding:18px 20px;border-radius:4px}
+.counties b{font-family:var(--head);font-size:24px;text-transform:uppercase;display:block}
+.counties small{color:var(--mut)}
+/* quote */
+.quote .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}
+.qinfo .lead{margin:18px 0 28px}
+.qline{display:flex;gap:16px;align-items:center;padding:18px 0;border-bottom:1px solid var(--line)}
+.qline i{width:50px;height:50px;border-radius:50%;background:var(--red);display:grid;place-items:center;flex:none}
+.qline svg{width:22px;height:22px}
+.qline small{display:block;color:var(--mut);font-size:13px;text-transform:uppercase;letter-spacing:.08em;font-weight:600}
+.qline b{font-size:20px}
+form{background:var(--bg2);border:1px solid var(--line);border-top:4px solid var(--red);border-radius:6px;padding:36px}
+form h3{font-size:30px;margin-bottom:4px}
+form>p{color:var(--mut);font-size:14.5px;margin-bottom:22px}
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.f{display:flex;flex-direction:column;gap:6px}
+.f.full{grid-column:1/-1}
+label{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#d4d4d8}
+input,select,textarea{background:var(--bg);border:1px solid var(--line);color:var(--txt);padding:13px 14px;border-radius:4px;font:inherit;font-size:15px}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--red)}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pills input{display:none}
+.pills label{background:var(--bg);border:1px solid var(--line);padding:10px 14px;border-radius:4px;cursor:pointer;text-transform:none;letter-spacing:0;font-size:14.5px;font-weight:600}
+.pills input:checked+label{background:var(--red);border-color:var(--red);color:#fff}
+form .btn{width:100%;justify-content:center;margin-top:20px;font-size:21px}
+.fnote{color:var(--mut);font-size:12.5px;text-align:center;margin-top:12px}
+.thanks{display:none;text-align:center;padding:50px 10px}
+.thanks svg{width:64px;height:64px;color:var(--red);margin:0 auto 14px}
+/* footer */
+footer{background:#050505;border-top:1px solid var(--line);padding:64px 0 100px}
+footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px}
+footer img{height:120px;margin-bottom:16px}
+footer h4{font-family:var(--head);text-transform:uppercase;font-size:19px;margin-bottom:14px;letter-spacing:.06em}
+footer li{list-style:none;color:var(--mut);font-size:14.5px;margin-bottom:8px}
+footer p{color:var(--mut);font-size:14.5px}
+.copy{max-width:1240px;margin:44px auto 0;padding:24px 24px 0;border-top:1px solid var(--line);color:#71717a;font-size:13px;display:flex;justify-content:space-between}
+.mbar{display:none}
+@media(max-width:1060px){nav{display:none}.hero .wrap,.area .wrap,.quote .wrap,.comm{grid-template-columns:1fr}.hero-art{height:460px}.svc{grid-template-columns:1fr 1fr}.ba-grid,.steps,.gal{grid-template-columns:1fr 1fr}.strip .wrap{grid-template-columns:1fr 1fr}footer .wrap{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.topbar span:first-child{display:none}.topbar .wrap{justify-content:center}.hphone,.hcta .btn{display:none}header .wrap{height:70px}.brand img{height:44px}.brand b{font-size:21px}section{padding:70px 0}.hero{padding:44px 0 60px}.hero-art{height:360px}.svc,.ba-grid,.steps{grid-template-columns:1fr}.gal{grid-auto-rows:180px}.strip .wrap{grid-template-columns:1fr}.strip div{border-right:0;border-bottom:1px solid var(--line)}.towns{grid-template-columns:1fr 1fr}.counties{flex-direction:column}.fg{grid-template-columns:1fr}form{padding:24px}.comm .tx{padding:34px 24px}.comm img{min-height:280px}footer .wrap{grid-template-columns:1fr}.copy{flex-direction:column;gap:6px}
+.mbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:60;box-shadow:0 -6px 24px #000a}
+.mbar a{display:flex;justify-content:center;align-items:center;gap:8px;padding:16px;font-family:var(--head);font-weight:700;text-transform:uppercase;font-size:18px;letter-spacing:.06em}
+.mbar a:first-child{background:#1C1C1F}.mbar a:last-child{background:var(--red)}.mbar svg{width:18px;height:18px}}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="phone" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></symbol>
+<symbol id="check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M4 12.5l5 5L20 6.5"/></symbol>
+<symbol id="arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="house" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></symbol>
+<symbol id="build" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M3 21h18M5 21V8l7-4 7 4v13M9 21v-6h6v6M9 11h.01M15 11h.01"/></symbol>
+<symbol id="tool" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M14.7 6.3a4 4 0 0 0 5 5L21 13l-8 8-3-3 6.3-6.3M14.7 6.3L13 4.6a4 4 0 0 0-5.6 5.6l1.7 1.7L3 18l3 3 6.1-6.1"/></symbol>
+<symbol id="clip" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M9 4h6v3H9zM7 5H5v16h14V5h-2M8.5 12l2.5 2.5L16 10"/></symbol>
+<symbol id="pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M12 21s7-6.3 7-12a7 7 0 0 0-14 0c0 5.7 7 12 7 12z"/><circle cx="12" cy="9" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+<symbol id="kitchen" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"><rect x="6" y="30" width="52" height="26" rx="2"/><path d="M6 38h52M24 38v18M40 38v18M30 46h4M14 46h4M46 46h4"/><rect x="12" y="8" width="16" height="14" rx="1"/><rect x="36" y="8" width="16" height="14" rx="1"/><path d="M20 22v8M44 22v8"/></g></symbol>
+<symbol id="hammer" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"><path d="M10 18l12-10 10 6-4 6 26 26-6 6-26-26-6 4z"/><path d="M42 10l12 0M48 4v12"/></g></symbol>
+</defs></svg>
+
+<div class="topbar"><div class="wrap"><span>Serving Los Angeles &amp; Orange County · Residential &amp; Commercial</span><span>Free estimates · Call <a href="tel:+12135550148">(213) 555-0148</a></span></div></div>
+
+<header><div class="wrap">
+  <a href="#" class="brand"><img src="img/logo-mark.png" alt="R.A. Construction Inc logo"><span><b>R.A. Construction Inc.</b><small>Foundations to Finishes</small></span></a>
+  <nav><a href="#services">Services</a><a href="#work">Before &amp; After</a><a href="#commercial">Commercial</a><a href="#area">Service Area</a><a href="#quote">Contact</a></nav>
+  <div class="hcta">
+    <a class="hphone" href="tel:+12135550148"><i><svg><use href="#phone"/></svg></i><span><small>Call or text</small>(213) 555-0148</span></a>
+    <a class="btn btn-red" href="#quote">Free Quote</a>
+  </div>
+</div></header>
+
+<section class="hero"><div class="wrap">
+  <div>
+    <div class="eyebrow">General contractor · LA &amp; OC</div>
+    <h1>Kitchens, Baths &amp; Remodels Built <em>Foundations to Finishes</em></h1>
+    <p class="lead">R.A. Construction remodels homes and commercial spaces across Los Angeles &amp; Orange County. Kitchens, bathrooms, room additions and full renovations, handled by one crew from the first dig to the final detail.</p>
+    <div class="hero-btns">
+      <a class="btn btn-red" href="#quote">Get a Free Quote <svg><use href="#arrow"/></svg></a>
+      <a class="btn btn-ghost" href="tel:+12135550148"><svg><use href="#phone"/></svg> (213) 555-0148</a>
+    </div>
+    <div class="chips">
+      <span><svg><use href="#check"/></svg>Free on-site estimates</span>
+      <span><svg><use href="#check"/></svg>Residential &amp; commercial</span>
+      <span><svg><use href="#check"/></svg>One crew, start to finish</span>
+    </div>
+  </div>
+  <div class="hero-art">
+    <div class="bar"></div>
+    <img class="a" src="img/bath2-after.jpg" alt="Modern bathroom remodel with marble-look tile, frameless glass shower and floating wood vanity">
+    <img class="b" src="img/staircase.jpg" alt="New staircase with oak treads and black iron balusters">
+    <div class="tag"><b>LA &amp; OC</b>Homes &amp; businesses</div>
+  </div>
+</div></section>
+
+<div class="strip"><div class="wrap">
+  <div><svg><use href="#house"/></svg><span><b>Residential</b><small>Kitchens, baths, additions</small></span></div>
+  <div><svg><use href="#build"/></svg><span><b>Commercial</b><small>Interiors &amp; tenant work</small></span></div>
+  <div><svg><use href="#clip"/></svg><span><b>Free Estimates</b><small>Clear, written quotes</small></span></div>
+  <div><svg><use href="#pin"/></svg><span><b>LA &amp; Orange County</b><small>We come to you</small></span></div>
+</div></div>
+
+<section id="services"><div class="wrap">
+  <div class="sec-head rv"><div><div class="eyebrow">What we build</div><h2>Our Services</h2></div><p class="lead">From a single bathroom to a full home addition. Tell us what you have in mind and we'll give you a straight answer on cost and timeline.</p></div>
+  <div class="svc">
+    <div class="card rv"><div class="ph"><span class="num">01</span><img src="img/shower-after.jpg" alt="Walk-in shower remodel with lit niche and linear drain"></div><div class="bd"><h3>Bathroom Remodels</h3><p>Walk-in showers, tub-to-shower conversions, new tile, vanities and lighting. Dated bathrooms turned into spaces you'll want to show off.</p><a class="more" href="#quote">Get a bath quote →</a></div></div>
+    <div class="card rv"><div class="ph icon"><span class="num">02</span><svg><use href="#kitchen"/></svg></div><div class="bd"><h3>Kitchen Remodels</h3><p>Cabinets, countertops, backsplash, flooring and layout changes. A kitchen that works for how your family actually cooks and lives.</p><a class="more" href="#quote">Get a kitchen quote →</a></div></div>
+    <div class="card rv"><div class="ph"><span class="num">03</span><img src="img/foundation-forms.jpg" alt="Foundation forms and rebar set for a home addition"></div><div class="bd"><h3>Room Additions</h3><p>More space without moving. We pour the foundation, frame, and finish the new room so it looks like it was always part of the house.</p><a class="more" href="#quote">Plan an addition →</a></div></div>
+    <div class="card rv"><div class="ph"><span class="num">04</span><img src="img/home-exterior.jpg" alt="Two-story Southern California home exterior"></div><div class="bd"><h3>Full Home Remodels</h3><p>Whole-house renovations, stairs, flooring, and interior updates. One contractor managing every trade so nothing falls through the cracks.</p><a class="more" href="#quote">Start your remodel →</a></div></div>
+    <div class="card rv"><div class="ph"><span class="num">05</span><img src="img/ballroom-column.jpg" alt="Commercial ballroom with custom wood and lit stone column wrap"></div><div class="bd"><h3>Commercial Spaces</h3><p>Interior upgrades for offices, venues and retail. Clean work, tight schedules, and minimal disruption to your business.</p><a class="more" href="#commercial">See commercial work →</a></div></div>
+    <div class="card rv"><div class="ph icon"><span class="num">06</span><svg><use href="#hammer"/></svg></div><div class="bd"><h3>Handyman Services</h3><p>Repairs, installs, doors, drywall, fixtures and the punch list you've been putting off. No job too small.</p><a class="more" href="#quote">Book a handyman →</a></div></div>
+  </div>
+</div></section>
+
+<section id="work" class="ba-sec"><div class="wrap">
+  <div class="sec-head rv"><div><div class="eyebrow">Real projects</div><h2>Before &amp; After</h2></div><p class="lead">Drag the slider to see the difference. Every photo here is our own work.</p></div>
+  <div class="ba-grid">
+    <div class="rv"><div class="ba"><img src="img/bath2-after.jpg" alt="Bathroom after remodel"><img class="before" src="img/bath2-before.jpg" alt="Bathroom before remodel"><span class="lb l">Before</span><span class="lb r">After</span><div class="handle"></div></div><div class="ba-cap">Full bathroom remodel<small>Glass shower, floating vanity, porcelain tile</small></div></div>
+    <div class="rv"><div class="ba"><img src="img/shower-after.jpg" alt="Shower after remodel"><img class="before" src="img/shower-before.jpg" alt="Shower before remodel"><span class="lb l">Before</span><span class="lb r">After</span><div class="handle"></div></div><div class="ba-cap">Walk-in shower upgrade<small>Lit niche, linear drain, frameless glass</small></div></div>
+    <div class="rv"><div class="ba"><img src="img/walkin-after.jpg" alt="Tub converted to walk-in shower"><img class="before" src="img/tub-before.jpg" alt="Old bathtub before conversion"><span class="lb l">Before</span><span class="lb r">After</span><div class="handle"></div></div><div class="ba-cap">Tub-to-shower conversion<small>New tile, glass enclosure, built-in niche</small></div></div>
+    <div class="rv"><div class="ba"><img src="img/vanity-after.jpg" alt="Bathroom vanity after remodel"><img class="before" src="img/vanity-before.jpg" alt="Bathroom vanity before remodel"><span class="lb l">Before</span><span class="lb r">After</span><div class="handle"></div></div><div class="ba-cap">Bathroom refresh<small>New vanity, flooring and fixtures</small></div></div>
+  </div>
+</div></section>
+
+<section id="commercial"><div class="wrap">
+  <div class="comm rv">
+    <img src="img/ballroom-column.jpg" alt="Event ballroom with custom wood column wrap and backlit stone panels">
+    <div class="tx">
+      <div class="eyebrow">Commercial</div>
+      <h2>Built for Business Too</h2>
+      <p class="lead" style="margin-top:16px">For this event ballroom we wrapped the structural columns in warm wood with backlit stone panels, turning plain posts into a feature guests notice.</p>
+      <ul><li>Venues, offices, restaurants and retail interiors</li><li>Work scheduled around your hours</li><li>Clean job sites and clear communication</li></ul>
+      <a class="btn btn-red" href="#quote" style="align-self:flex-start">Request a Commercial Bid <svg><use href="#arrow"/></svg></a>
+    </div>
+  </div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <div class="sec-head rv"><div><div class="eyebrow">How it works</div><h2>Foundations to Finishes</h2></div></div>
+  <div class="steps">
+    <div class="step rv"><h3>Free Estimate</h3><p>We visit, listen to what you want, measure, and talk through options and budget.</p></div>
+    <div class="step rv"><h3>Clear Quote</h3><p>You get a written quote with the scope spelled out. No surprises later.</p></div>
+    <div class="step rv"><h3>We Build</h3><p>Our crew handles demo, foundation, framing, plumbing, tile and finish work.</p></div>
+    <div class="step rv"><h3>Final Walkthrough</h3><p>We walk the job with you and don't call it done until you're happy.</p></div>
+  </div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <div class="sec-head rv"><div><div class="eyebrow">On the job</div><h2>Recent Work</h2></div><a class="btn btn-ghost" href="#quote">Start Your Project</a></div>
+  <div class="gal">
+    <figure class="t rv"><img src="img/walkin-after.jpg" alt="Finished walk-in shower"><figcaption>Walk-in shower, Los Angeles</figcaption></figure>
+    <figure class="rv"><img src="img/foundation-dig.jpg" alt="Excavation for a new foundation"><figcaption>Excavation for an addition</figcaption></figure>
+    <figure class="rv"><img src="img/staircase.jpg" alt="Oak and iron staircase"><figcaption>Oak &amp; iron staircase</figcaption></figure>
+    <figure class="t rv"><img src="img/shower-after.jpg" alt="Shower with lit niche"><figcaption>Shower with lit niche</figcaption></figure>
+    <figure class="rv"><img src="img/hillside-home.jpg" alt="Hillside home project"><figcaption>Hillside home project</figcaption></figure>
+    <figure class="rv"><img src="img/foundation-forms.jpg" alt="Foundation forms"><figcaption>Foundation forming</figcaption></figure>
+  </div>
+</div></section>
+
+<section id="area" class="area"><div class="wrap">
+  <div class="rv">
+    <div class="eyebrow">Service area</div>
+    <h2>Serving Los Angeles &amp; Orange County</h2>
+    <p class="lead" style="margin-top:16px">Based in Los Angeles and working throughout LA and Orange County. Not sure if we cover your city? Call us, we probably do.</p>
+    <div class="counties"><div><b>Los Angeles County</b><small>Homes &amp; businesses</small></div><div><b>Orange County</b><small>Homes &amp; businesses</small></div></div>
+  </div>
+  <div class="towns rv">
+    <span>Los Angeles</span><span>Long Beach</span><span>Torrance</span><span>Pasadena</span><span>Glendale</span><span>Burbank</span><span>Santa Monica</span><span>Downey</span><span>Whittier</span><span>Anaheim</span><span>Irvine</span><span>Santa Ana</span><span>Huntington Beach</span><span>Fullerton</span><span>Costa Mesa</span>
+  </div>
+</div></section>
+
+<section id="quote" class="quote"><div class="wrap">
+  <div class="qinfo rv">
+    <div class="eyebrow">Free estimate</div>
+    <h2>Let's Talk About Your Project</h2>
+    <p class="lead">Fill out the form and we'll get back to you within one business day. Prefer to talk? Call or text anytime.</p>
+    <a class="qline" href="tel:+12135550148"><i><svg><use href="#phone"/></svg></i><span><small>Call or text</small><b>(213) 555-0148</b></span></a>
+    <div class="qline"><i><svg><use href="#pin"/></svg></i><span><small>Service area</small><b>Los Angeles &amp; Orange County</b></span></div>
+    <div class="qline"><i><svg><use href="#clip"/></svg></i><span><small>Estimates</small><b>Free, on-site, no pressure</b></span></div>
+  </div>
+  <form id="qf" class="rv" onsubmit="event.preventDefault();this.querySelector('.fbody').style.display='none';this.querySelector('.thanks').style.display='block'">
+    <div class="fbody">
+      <h3>Get a Free Quote</h3><p>Takes about 60 seconds.</p>
+      <div class="fg">
+        <div class="f full"><label>What's the project?</label>
+          <div class="pills">
+            <input type="radio" name="t" id="t1" checked><label for="t1">Bathroom</label>
+            <input type="radio" name="t" id="t2"><label for="t2">Kitchen</label>
+            <input type="radio" name="t" id="t3"><label for="t3">Addition</label>
+            <input type="radio" name="t" id="t4"><label for="t4">Full remodel</label>
+            <input type="radio" name="t" id="t5"><label for="t5">Handyman</label>
+            <input type="radio" name="t" id="t6"><label for="t6">Commercial</label>
+          </div></div>
+        <div class="f"><label for="pt">Property type</label><select id="pt"><option>House</option><option>Condo / townhome</option><option>Commercial space</option></select></div>
+        <div class="f"><label for="tl">When do you want to start?</label><select id="tl"><option>As soon as possible</option><option>Within 1–3 months</option><option>3+ months</option><option>Just getting prices</option></select></div>
+        <div class="f"><label for="n">Name</label><input id="n" required placeholder="Your name"></div>
+        <div class="f"><label for="p">Phone</label><input id="p" type="tel" required placeholder="(___) ___-____"></div>
+        <div class="f"><label for="z">ZIP code</label><input id="z" inputmode="numeric" placeholder="90001"></div>
+        <div class="f"><label for="e">Email</label><input id="e" type="email" placeholder="you@email.com"></div>
+        <div class="f full"><label for="d">Tell us a little about it</label><textarea id="d" rows="3" placeholder="e.g. Turn our tub into a walk-in shower, new vanity and tile"></textarea></div>
+      </div>
+      <button class="btn btn-red" type="submit">Send My Request <svg><use href="#arrow"/></svg></button>
+      <p class="fnote">No spam. We only use your info to reply about your project.</p>
+    </div>
+    <div class="thanks"><svg><use href="#check"/></svg><h3>Thanks! We got it.</h3><p style="color:var(--mut);margin-top:8px">We'll reach out within one business day. Need us sooner? Call (213) 555-0148.</p></div>
+  </form>
+</div></section>
+
+<footer><div class="wrap">
+  <div><img src="img/logo.png" alt="R.A. Construction Inc"><p>General contractor for residential &amp; commercial spaces in Los Angeles &amp; Orange County.</p></div>
+  <div><h4>Services</h4><ul><li>Bathroom remodels</li><li>Kitchen remodels</li><li>Room additions</li><li>Full home remodels</li><li>Commercial interiors</li><li>Handyman services</li></ul></div>
+  <div><h4>Areas</h4><ul><li>Los Angeles</li><li>Long Beach</li><li>Pasadena</li><li>Irvine</li><li>Anaheim</li><li>Huntington Beach</li></ul></div>
+  <div><h4>Contact</h4><ul><li><a href="tel:+12135550148">(213) 555-0148</a></li><li>Free estimates</li><li>Instagram @ra_construction_la</li></ul><a class="btn btn-red" href="#quote" style="margin-top:12px;font-size:16px;padding:12px 18px">Free Quote</a></div>
+</div>
+<div class="copy"><span>© 2026 R.A. Construction Inc. All rights reserved.</span><span>Foundations to Finishes</span></div></footer>
+
+<div class="mbar"><a href="tel:+12135550148"><svg><use href="#phone"/></svg>Call Now</a><a href="#quote">Free Quote</a></div>
+
+<script>
+document.querySelectorAll('.ba').forEach(b=>{const bf=b.querySelector('.before'),h=b.querySelector('.handle');let d=false;
+const set=x=>{const r=b.getBoundingClientRect();let p=Math.min(100,Math.max(0,(x-r.left)/r.width*100));bf.style.clipPath='inset(0 '+(100-p)+'% 0 0)';h.style.left=p+'%'};
+b.addEventListener('pointerdown',e=>{d=true;set(e.clientX)});addEventListener('pointerup',()=>d=false);b.addEventListener('pointermove',e=>{if(d||e.pointerType==='mouse')set(e.clientX)});b.addEventListener('pointerleave',()=>{if(!d){bf.style.clipPath='';h.style.left=''}})});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
