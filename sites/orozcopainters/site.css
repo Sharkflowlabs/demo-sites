@@ -116,3 +116,6 @@ header .wrap{position:relative}
 .bacard h3{font-size:28px;color:var(--t);padding:20px 22px 4px}.bacard p{color:var(--mut);font-size:14.5px;padding:0 22px 22px}
 @media(max-width:900px){.bagrid{grid-template-columns:1fr}.bacard img{height:260px}.gal.all{grid-template-columns:1fr 1fr;grid-auto-rows:240px}.gal.all img{height:100%}}
 .cinfo a span,.cinfo div.it span{min-width:0;overflow-wrap:anywhere}.cinfo{min-width:0}.cgrid>*{min-width:0}
+.rc{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:40px}.rc>div{background:var(--cream);border-radius:20px;padding:34px;border-top:5px solid var(--aq)}.rc>div:nth-child(2){border-top-color:var(--g)}
+.rc b{font-size:34px;display:block;margin-bottom:8px}.rc h3{font-size:34px;color:var(--t);margin-bottom:8px}.rc p{color:var(--mut);margin-bottom:14px}.rc ul{list-style:none;columns:2;font-weight:600;font-size:15px}.rc li{padding:4px 0;break-inside:avoid}.rc li:before{content:"✓  ";color:var(--aq);font-weight:800}
+@media(max-width:900px){.rc{grid-template-columns:1fr}.rc ul{columns:1}}
