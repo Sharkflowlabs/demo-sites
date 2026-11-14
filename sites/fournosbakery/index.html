@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fournos The Greek Bakery | Greek Coffee &amp; Bakery in Mansfield</title>
+<meta name="description" content="Fournos The Greek Bakery on Church Street, Mansfield. Freddo espresso, koulouri, spanakopita, bougatsa, Greek pastries, desserts and fresh sandwiches.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Bakery","name":"Fournos The Greek Bakery","servesCuisine":["Greek","Coffee","Bakery"],
+"address":{"@type":"PostalAddress","streetAddress":"35 Church Street","addressLocality":"Mansfield","postalCode":"NG18 1AF","addressCountry":"GB"},
+"sameAs":["https://www.instagram.com/fournos_thegreekbakery/"]}
+</script>
+<style>
+:root{--green:#1d4a34;--green-d:#143826;--green-l:#2b6247;--gold:#c9a24a;--gold-l:#e2c47a;--cream:#f7f1e3;--paper:#fffaf0;--yellow:#e4dc55;--ink:#1c2620;--muted:#5b6660;--wood:#7a4f2e}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"DM Sans",system-ui,sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.wordmark{font-family:"Bagel Fat One",cursive;letter-spacing:.5px;line-height:1}
+.serif-caps{font-family:"Cormorant Garamond",serif;text-transform:uppercase;letter-spacing:.22em;font-weight:600}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 26px;border-radius:999px;font-weight:700;font-size:15px;transition:.2s transform,.2s background}
+.btn:hover{transform:translateY(-2px)}
+.btn-gold{background:var(--gold);color:var(--green-d)}
+.btn-gold:hover{background:var(--gold-l)}
+.btn-ghost{border:1.5px solid rgba(255,255,255,.45);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.08)}
+.btn-green{background:var(--green);color:#fff}
+.btn-green:hover{background:var(--green-l)}
+.btn svg{width:18px;height:18px}
+
+/* nav */
+header{position:sticky;top:0;z-index:50;background:rgba(20,56,38,.96);backdrop-filter:blur(8px);border-bottom:1px solid rgba(201,162,74,.25)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:74px}
+.brand{display:flex;flex-direction:column;color:#fff}
+.brand .wordmark{font-size:30px}
+.brand .serif-caps{font-size:10px;color:var(--gold-l);margin-top:2px;letter-spacing:.3em}
+.nav ul{display:flex;gap:34px;list-style:none;color:rgba(255,255,255,.85);font-weight:500;font-size:15px}
+.nav ul a:hover{color:var(--gold-l)}
+.nav .btn{padding:11px 20px;font-size:14px}
+
+/* hero */
+.hero{background:var(--green);color:#fff;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 15% 20%,rgba(201,162,74,.16),transparent 55%),radial-gradient(ellipse at 90% 100%,rgba(0,0,0,.25),transparent 60%)}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;padding:72px 0 88px}
+.kalimera{display:inline-flex;align-items:center;gap:14px;color:var(--gold-l);font-size:15px}
+.kalimera:after{content:"";width:48px;height:1px;background:var(--gold)}
+.hero h1{font-family:"Bagel Fat One",cursive;font-weight:400;font-size:clamp(44px,6vw,76px);line-height:1.02;margin:18px 0 22px;letter-spacing:.3px}
+.hero h1 em{font-style:normal;color:var(--gold-l)}
+.hero p.lead{font-size:19px;color:rgba(255,255,255,.82);max-width:520px}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+.hero .addr{margin-top:30px;display:flex;align-items:center;gap:10px;color:rgba(255,255,255,.7);font-size:15px}
+.hero .addr svg{width:18px;height:18px;color:var(--gold)}
+.hero-photo{position:relative}
+.hero-photo .frame{border-radius:28px;overflow:hidden;border:6px solid rgba(255,255,255,.08);box-shadow:0 40px 80px rgba(0,0,0,.35);aspect-ratio:4/4.6}
+.hero-photo .frame img{width:100%;height:100%;object-fit:cover;object-position:50% 20%}
+.badge{position:absolute;left:-46px;bottom:34px;background:var(--paper);color:var(--green);border-radius:22px;padding:14px 22px 14px 12px;display:flex;align-items:center;gap:8px;box-shadow:0 20px 40px rgba(0,0,0,.28)}
+.badge img{width:56px}
+.badge b{font-family:"Bagel Fat One";font-weight:400;font-size:20px;display:block;line-height:1.1}
+.badge span{font-size:13px;color:var(--muted)}
+
+/* chalk strip */
+.strip{background:var(--gold);color:var(--green-d)}
+.strip .wrap{display:flex;justify-content:center;gap:18px 46px;flex-wrap:wrap;padding:18px 24px;font-family:"Bagel Fat One";font-size:22px}
+.strip span{display:flex;align-items:center;gap:46px}
+.strip span:not(:last-child):after{content:"✦";font-size:13px;opacity:.6}
+
+section{padding:96px 0}
+.eyebrow{color:var(--gold);font-size:13px}
+.h2{font-family:"Bagel Fat One";font-weight:400;font-size:clamp(34px,4.4vw,52px);line-height:1.08;color:var(--green);margin:12px 0 16px}
+.sub{color:var(--muted);font-size:18px;max-width:620px}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:48px;flex-wrap:wrap}
+
+/* oven cards */
+.oven{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.card{background:var(--paper);border-radius:22px;overflow:hidden;box-shadow:0 1px 0 rgba(0,0,0,.04),0 18px 40px -22px rgba(29,74,52,.35);transition:.25s transform}
+.card:hover{transform:translateY(-4px)}
+.card .ph{aspect-ratio:4/3.4;overflow:hidden}
+.card .ph img{width:100%;height:100%;object-fit:cover;transition:.5s transform}
+.card:hover .ph img{transform:scale(1.05)}
+.card .body{padding:20px 22px 24px}
+.card h3{font-family:"Cormorant Garamond",serif;font-size:25px;font-weight:700;color:var(--green);display:flex;justify-content:space-between;gap:12px;line-height:1.2}
+.card h3 small{font-family:"DM Sans";font-size:16px;font-weight:700;color:var(--gold);white-space:nowrap;padding-top:3px}
+.card p{color:var(--muted);font-size:15px;margin-top:6px}
+
+/* freddo */
+.freddo{background:var(--green-d);color:#fff;padding:0}
+.freddo-grid{display:grid;grid-template-columns:1fr 1fr;min-height:560px}
+.freddo .ph{background:url(img/counter.jpg) center 35%/cover}
+.freddo .txt{padding:90px 70px;display:flex;flex-direction:column;justify-content:center}
+.freddo .h2{color:#fff}
+.freddo .sub{color:rgba(255,255,255,.75)}
+.freddo-prices{display:flex;gap:16px;margin:30px 0 34px;flex-wrap:wrap}
+.fp{border:1px solid rgba(201,162,74,.45);border-radius:18px;padding:16px 22px;min-width:190px}
+.fp b{display:block;font-family:"Cormorant Garamond";font-size:24px;font-weight:700}
+.fp span{color:var(--gold-l);font-weight:700}
+
+/* menu */
+.menu{background:var(--paper)}
+.board{background:var(--green);color:#fff;border-radius:30px;padding:56px 56px 46px;position:relative;overflow:hidden;box-shadow:0 40px 70px -40px rgba(20,56,38,.7)}
+.board:before{content:"";position:absolute;inset:14px;border:1px solid rgba(201,162,74,.35);border-radius:20px;pointer-events:none}
+.board-top{text-align:center;margin-bottom:40px}
+.board-top .wordmark{font-size:58px}
+.board-top .serif-caps{color:var(--gold-l);font-size:13px;margin-top:6px}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:46px}
+.col h4{font-family:"Cormorant Garamond";font-size:28px;color:var(--gold-l);font-weight:700;margin-bottom:12px;border-bottom:1px solid rgba(201,162,74,.35);padding-bottom:8px}
+.col ul{list-style:none}
+.col li{display:flex;align-items:baseline;gap:8px;padding:6px 0;font-size:15.5px}
+.col li:after{content:"";order:1;flex:1;border-bottom:1px dotted rgba(255,255,255,.28)}
+.col li i{font-style:normal;order:2;color:var(--gold-l);font-weight:700}
+.col li.hl{color:var(--gold-l);font-weight:700}
+.col .note{margin-top:22px;font-size:14px;color:rgba(255,255,255,.62)}
+.col + .col h4.mt{margin-top:30px}
+.board .foot{text-align:center;margin-top:38px;color:rgba(255,255,255,.6);font-size:14px}
+
+/* space */
+.space-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;grid-template-rows:260px 260px;gap:18px}
+.space-grid div{border-radius:22px;overflow:hidden}
+.space-grid img{width:100%;height:100%;object-fit:cover}
+.space-grid .big{grid-row:span 2}
+.space-grid .txt{background:var(--green);color:#fff;padding:34px;display:flex;flex-direction:column;justify-content:center}
+.space-grid .txt .h2{color:#fff;font-size:34px;margin:6px 0 10px}
+.space-grid .txt p{color:rgba(255,255,255,.78);font-size:15.5px}
+.mascot-wrap{display:flex;align-items:center;justify-content:center;background:var(--yellow)!important}
+.mascot-wrap img{height:84%;width:auto;object-fit:contain}
+
+/* visit */
+.visit{background:var(--cream)}
+.visit-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px;align-items:stretch}
+.visit-card{background:var(--paper);border-radius:26px;padding:46px;box-shadow:0 18px 40px -26px rgba(29,74,52,.35)}
+.info{display:flex;gap:16px;margin:26px 0}
+.info .ic{width:46px;height:46px;border-radius:14px;background:var(--green);color:var(--gold-l);display:grid;place-items:center;flex:none}
+.info .ic svg{width:22px;height:22px}
+.info b{display:block;color:var(--green);font-size:17px}
+.info span{color:var(--muted)}
+.visit-card .ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.map{border-radius:26px;overflow:hidden;min-height:420px;border:6px solid var(--paper);box-shadow:0 18px 40px -26px rgba(29,74,52,.35)}
+.map iframe{width:100%;height:100%;border:0;min-height:420px}
+
+footer{background:var(--green-d);color:rgba(255,255,255,.7);padding:56px 0}
+.foot-grid{display:flex;justify-content:space-between;align-items:center;gap:30px;flex-wrap:wrap}
+footer .brand .wordmark{font-size:40px}
+footer small{display:block;margin-top:26px;font-size:13px;color:rgba(255,255,255,.45)}
+footer a:hover{color:var(--gold-l)}
+
+/* mobile bar */
+.mbar{display:none}
+
+@media (max-width:960px){
+ .nav ul{display:none}
+ .hero-grid{grid-template-columns:1fr;padding:44px 0 64px;gap:40px}
+ .badge{left:14px;bottom:14px}
+ .oven{grid-template-columns:1fr 1fr}
+ .freddo-grid{grid-template-columns:1fr}
+ .freddo .ph{min-height:380px}
+ .freddo .txt{padding:60px 24px}
+ .cols{grid-template-columns:1fr;gap:30px}
+ .board{padding:44px 26px 34px}
+ .space-grid{grid-template-columns:1fr 1fr;grid-template-rows:auto}
+ .space-grid .big{grid-row:auto;grid-column:span 2;height:300px}
+ .space-grid > div:not(.txt){min-height:200px}
+ .space-grid .txt{grid-column:span 2}
+ .visit-grid{grid-template-columns:1fr}
+ footer{padding-bottom:110px}
+ .mbar{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(20,56,38,.97);border-top:1px solid rgba(201,162,74,.3)}
+ .mbar .btn{justify-content:center;padding:13px 10px}
+}
+@media (max-width:600px){
+ .wrap{padding:0 16px}
+ section{padding:70px 0}
+ .oven{grid-template-columns:1fr}
+ .nav .btn{display:none}
+ .board-top .wordmark{font-size:44px}
+ .visit-card{padding:30px 22px}
+ .strip .wrap{font-size:18px;gap:10px 22px}
+ .strip span{gap:22px}
+}
+</style>
+</head>
+<body>
+
+<header>
+ <div class="wrap nav">
+  <a href="#top" class="brand"><span class="wordmark">Fournos</span><span class="serif-caps">The Greek Bakery</span></a>
+  <ul><li><a href="#oven">From the Oven</a></li><li><a href="#menu">Menu</a></li><li><a href="#cafe">The Café</a></li><li><a href="#visit">Visit</a></li></ul>
+  <a class="btn btn-gold" href="https://www.google.com/maps/dir/?api=1&destination=35+Church+Street+Mansfield+NG18+1AF" target="_blank" rel="noopener">Get Directions</a>
+ </div>
+</header>
+
+<main id="top">
+<section class="hero" style="padding:0">
+ <div class="wrap hero-grid">
+  <div>
+   <span class="kalimera serif-caps">Kalimera, Mansfield</span>
+   <h1>Greek coffee &amp; fresh bakes on <em>Church Street</em></h1>
+   <p class="lead">Freddo espresso, warm koulouri, flaky filo pies and sweet treats, made the Greek way and served with a smile in the heart of Mansfield.</p>
+   <div class="ctas">
+    <a class="btn btn-gold" href="#menu">See the Menu</a>
+    <a class="btn btn-ghost" href="#visit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Find Us</a>
+   </div>
+   <div class="addr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>35 Church Street, Mansfield NG18 1AF</div>
+  </div>
+  <div class="hero-photo">
+   <div class="frame"><img src="img/storefront-team.jpg" alt="The Fournos team outside the green Fournos The Greek Bakery shopfront in Mansfield"></div>
+   <div class="badge"><img src="img/mascot.png" alt=""><div><b>Come say hello!</b><span>Coffees · Pastries · Sandwiches</span></div></div>
+  </div>
+ </div>
+</section>
+
+<div class="strip"><div class="wrap"><span>Coffees</span><span>Pastries</span><span>Desserts</span><span>Fresh Sandwiches</span></div></div>
+
+<section id="oven">
+ <div class="wrap">
+  <div class="head">
+   <div><div class="eyebrow serif-caps">From the oven</div><h2 class="h2">Baked fresh, the Greek way</h2><p class="sub">The bakes you'd find on a street corner in Thessaloniki, now on Church Street. Come early for the best pick.</p></div>
+   <a class="btn btn-green" href="#menu">Full Menu</a>
+  </div>
+  <div class="oven">
+   <article class="card"><div class="ph"><img style="object-position:50% 20%" src="img/koulouri.jpg" alt="Koulouri Thessalonikis sesame bread rings in the Fournos display"></div><div class="body"><h3>Koulouri Thessalonikis <small>£1.50</small></h3><p>The classic Greek sesame bread ring. Crunchy outside, soft inside, perfect with a coffee.</p></div></article>
+   <article class="card"><div class="ph"><img src="img/pies.jpg" alt="Golden filo pies fresh from the oven at Fournos"></div><div class="body"><h3>Filo Pies</h3><p>Flaky, golden pies with traditional fillings, including spanakopita. A proper Greek breakfast on the go.</p></div></article>
+   <article class="card"><div class="ph"><img src="img/strudel.jpg" alt="Sugar-dusted apple strudel pastries on a wooden board"></div><div class="body"><h3>Apple Strudel <small>£2.90</small></h3><p>Buttery layers, warm apple and a dusting of icing sugar.</p></div></article>
+   <article class="card"><div class="ph"><img src="img/sesame-pie.jpg" alt="Sesame-topped Greek pies"></div><div class="body"><h3>Sesame-Topped Pies</h3><p>Hand-rolled and finished with toasted sesame seeds.</p></div></article>
+   <article class="card"><div class="ph"><img src="img/croissants.jpg" alt="Chocolate drizzled croissants in the Fournos pastry case"></div><div class="body"><h3>Croissants</h3><p>Filled and drizzled croissants, baked fresh for the counter.</p></div></article>
+   <article class="card"><div class="ph"><img src="img/sweets.jpg" alt="Cookies, doughnuts and Greek biscuits on the Fournos counter"></div><div class="body"><h3>Sweets &amp; Desserts</h3><p>Cookies, doughnuts, Greek biscuits and treats from back home.</p></div></article>
+  </div>
+ </div>
+</section>
+
+<section class="freddo">
+ <div class="freddo-grid">
+  <div class="ph" role="img" aria-label="The Fournos counter with the drinks menu and pastry display"></div>
+  <div class="txt">
+   <div class="eyebrow serif-caps">Mansfield's freddo spot</div>
+   <h2 class="h2">Your next freddo is on Church Street</h2>
+   <p class="sub">Iced, frothy and strong. The coffee every Greek orders, made properly. Grab one with a koulouri and you're sorted.</p>
+   <div class="freddo-prices">
+    <div class="fp"><b>Freddo Espresso</b><span>£3.30</span></div>
+    <div class="fp"><b>Freddo Cappuccino</b><span>£3.50</span></div>
+   </div>
+   <div><a class="btn btn-gold" href="#menu">See All Drinks</a></div>
+  </div>
+ </div>
+</section>
+
+<section class="menu" id="menu">
+ <div class="wrap">
+  <div class="head" style="justify-content:center;text-align:center"><div><div class="eyebrow serif-caps">Refreshing hot &amp; cold drinks</div><h2 class="h2">The Menu</h2></div></div>
+  <div class="board">
+   <div class="board-top"><div class="wordmark">Fournos</div><div class="serif-caps">The Greek Bakery</div></div>
+   <div class="cols">
+    <div class="col">
+     <h4>Classic Drinks</h4>
+     <ul>
+      <li>Espresso<i>£2.40</i></li><li>Double Espresso<i>£2.60</i></li><li>Macchiato<i>£3.00</i></li><li>Cortado<i>£3.20</i></li><li>Americano<i>£3.00</i></li><li>Café Latte<i>£3.50</i></li><li>Cappuccino<i>£3.50</i></li><li>Flat White<i>£3.40</i></li><li>Mocha<i>£3.90</i></li><li>Hot Chocolate<i>£3.90</i></li><li>Iced Chocolate<i>£3.90</i></li><li class="hl">Freddo Espresso<i>£3.30</i></li><li class="hl">Freddo Cappuccino<i>£3.50</i></li>
+     </ul>
+    </div>
+    <div class="col">
+     <h4>Classic Teas</h4>
+     <ul>
+      <li>English Breakfast<i>£2.80</i></li><li>Earl Grey<i>£2.80</i></li><li>Green Tea<i>£2.80</i></li><li>Lemon Grass<i>£2.80</i></li><li>Peppermint<i>£2.80</i></li><li>Chamomile<i>£2.80</i></li><li>Red Berries<i>£2.80</i></li><li>Chai Latte<i>£3.50</i></li><li>Iced Chai Latte<i>£3.50</i></li>
+     </ul>
+     <h4 style="margin-top:28px">Extras</h4>
+     <ul><li>Extra Shot<i>£0.60</i></li><li>Syrup<i>£0.60</i></li><li>Alternative Milk<i>£0.40</i></li></ul>
+    </div>
+    <div class="col">
+     <h4>From the Bakery</h4>
+     <ul>
+      <li>Koulouri Thessalonikis<i>£1.50</i></li><li>Apple Strudel<i>£2.90</i></li><li>Prosciutto Mozzarella Ciabatta<i>£4.90</i></li>
+     </ul>
+     <h4 style="margin-top:28px">Also on the Counter</h4>
+     <ul><li>Spanakopita &amp; filo pies</li><li>Bougatsa</li><li>Croissants</li><li>Fresh sandwiches</li><li>Cookies &amp; doughnuts</li><li>Greek biscuits &amp; sweets</li></ul>
+    </div>
+   </div>
+   <p class="foot">Counter changes daily. Ask us about allergens, we're happy to help.</p>
+  </div>
+ </div>
+</section>
+
+<section id="cafe">
+ <div class="wrap">
+  <div class="space-grid">
+   <div class="big"><img src="img/interior-counter.jpg" alt="Inside Fournos: yellow walls, wood counter and pastry displays"></div>
+   <div class="txt"><div class="eyebrow serif-caps">The café</div><h2 class="h2">Pull up a chair</h2><p>Sunny yellow walls, a wood counter full of bakes and comfy seats by the window. Stay a while or grab and go.</p></div>
+   <div class="mascot-wrap"><img src="img/mascot.png" alt="The Fournos baker mascot carrying a baguette"></div>
+   <div><img src="img/seating.jpg" alt="Seating area with tables and sofas inside Fournos"></div>
+   <div><img src="img/shopfront.jpg" alt="Fournos The Greek Bakery shopfront with Kalimera sign above the door"></div>
+  </div>
+ </div>
+</section>
+
+<section class="visit" id="visit" style="padding-top:20px">
+ <div class="wrap visit-grid">
+  <div class="visit-card">
+   <div class="eyebrow serif-caps">Visit us</div>
+   <h2 class="h2">Find us in Mansfield town centre</h2>
+   <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></div><div><b>35 Church Street</b><span>Mansfield NG18 1AF, United Kingdom</span></div></div>
+   <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></div><div><b>@fournos_thegreekbakery</b><span>Today's bakes and specials on Instagram</span></div></div>
+   <div class="ctas">
+    <a class="btn btn-green" href="https://www.google.com/maps/dir/?api=1&destination=35+Church+Street+Mansfield+NG18+1AF" target="_blank" rel="noopener">Get Directions</a>
+    <a class="btn btn-gold" href="https://www.instagram.com/fournos_thegreekbakery/" target="_blank" rel="noopener">Message Us</a>
+   </div>
+  </div>
+  <div class="map"><iframe title="Map to Fournos The Greek Bakery" loading="lazy" src="https://maps.google.com/maps?q=35%20Church%20Street%2C%20Mansfield%20NG18%201AF&z=16&output=embed"></iframe></div>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap foot-grid">
+  <div class="brand"><span class="wordmark">Fournos</span><span class="serif-caps">The Greek Bakery</span></div>
+  <div>35 Church Street, Mansfield NG18 1AF<br><a href="https://www.instagram.com/fournos_thegreekbakery/" target="_blank" rel="noopener">Instagram: @fournos_thegreekbakery</a></div>
+ </div>
+ <div class="wrap"><small>© 2026 Fournos The Greek Bakery. Kalimera from Mansfield.</small></div>
+</footer>
+
+<div class="mbar">
+ <a class="btn btn-gold" href="https://www.google.com/maps/dir/?api=1&destination=35+Church+Street+Mansfield+NG18+1AF">Directions</a>
+ <a class="btn btn-ghost" href="#menu">Menu</a>
+</div>
+</body>
+</html>
