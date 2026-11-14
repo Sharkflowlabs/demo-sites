@@ -23,12 +23,13 @@
 <input type="hidden" name="access_key" value="648dfde8-a118-432e-9495-708e585f489d">
 <input type="hidden" name="subject" value="New estimate request from the Orozco Painters website">
 <input type="hidden" name="from_name" value="Orozco Painters Website">
+<input type="hidden" name="sent_from" value="Website">
 <input type="hidden" name="redirect" value="https://orozcopainters.com/thank-you">
 <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
 <h3 class="s">Free Estimate in Your Area</h3>
 <p>Tell us about the project. We'll call to set up a quick walkthrough.</p>
 <div class="seg"><label><input type="radio" name="job_type" value="Interior" checked><span>Interior</span></label><label><input type="radio" name="job_type" value="Exterior"><span>Exterior</span></label><label><input type="radio" name="job_type" value="Both"><span>Both</span></label></div>
-<div class="row"><input name="name" placeholder="Your name" required><input name="phone" type="tel" placeholder="Phone" required></div>
+<div class="row"><input name="name" placeholder="Your name" required><input name="phone" type="tel" inputmode="tel" placeholder="Phone" required pattern="[0-9()+.\- ]{10,}" title="Please enter a phone number (numbers only)" oninput="this.value=this.value.replace(/[^0-9()+.\- ]/g,'')"></div>
 <div class="row"><input name="email" type="email" placeholder="Email"><select name="property_type"><option value="">Property type</option><option>Residential (home)</option><option>Commercial (business)</option><option>Rental / property managed</option></select></div>
 <div class="row"><select name="surface"><option value="">Surface type</option><option>Walls &amp; ceilings</option><option>Stucco</option><option>Wood siding / trim</option><option>Cabinets</option><option>Doors &amp; garage</option><option>Drywall repair</option><option>Fences &amp; decks</option><option>Not sure</option></select>
 <select name="sqft"><option value="">Approx. sq ft</option><option>Under 500</option><option>500 to 1,500</option><option>1,500 to 3,000</option><option>3,000+</option><option>Not sure</option></select></div>
@@ -52,5 +53,5 @@
 <div class="bt-row"><span>© 2026 Orozco Painters Solutions Inc. · CA Lic. #1136227</span><span>Serving San Marcos &amp; North County San Diego</span></div>
 </div></footer>
 <div class="mcta"><a class="bt" href="tel:7609943290">📞 Call</a><a class="bp" href="contact.html">Free Estimate</a></div>
-<script>document.querySelectorAll('input[name=redirect]').forEach(function(i){if(location.protocol.indexOf('http')===0)i.value=location.origin+'/thank-you';});</script>
+<script>document.querySelectorAll('input[name=redirect]').forEach(function(i){if(location.protocol.indexOf('http')===0)i.value=location.origin+'/thank-you';});var pg=document.title.split('|')[0].trim();document.querySelectorAll('input[name=sent_from]').forEach(function(i){i.value=(/\/(index(\.html)?)?$/.test(location.pathname)?'Homepage':pg);});</script>
 </body></html>
