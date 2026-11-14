@@ -31,10 +31,10 @@
 <p>Tell us about the project. We'll call to set up a quick walkthrough.</p>
 <div class="seg"><label><input type="radio" name="job_type" value="Interior" checked><span>Interior</span></label><label><input type="radio" name="job_type" value="Exterior"><span>Exterior</span></label><label><input type="radio" name="job_type" value="Both"><span>Both</span></label></div>
 <div class="row"><input name="name" placeholder="Your name" required><input name="phone" type="tel" placeholder="Phone" required></div>
-<input name="email" type="email" placeholder="Email (optional)">
-<div class="row"><select name="surface"><option value="">Surface type</option><option>Walls &amp; ceilings</option><option>Stucco</option><option>Wood siding / trim</option><option>Cabinets</option><option>Doors &amp; garage</option><option>Fences &amp; decks</option><option>Not sure</option></select>
+<div class="row"><input name="email" type="email" placeholder="Email"><select name="property_type"><option value="">Property type</option><option>Residential (home)</option><option>Commercial (business)</option><option>Rental / property managed</option></select></div>
+<div class="row"><select name="surface"><option value="">Surface type</option><option>Walls &amp; ceilings</option><option>Stucco</option><option>Wood siding / trim</option><option>Cabinets</option><option>Doors &amp; garage</option><option>Drywall repair</option><option>Fences &amp; decks</option><option>Not sure</option></select>
 <select name="sqft"><option value="">Approx. sq ft</option><option>Under 500</option><option>500 to 1,500</option><option>1,500 to 3,000</option><option>3,000+</option><option>Not sure</option></select></div>
-<input name="zip" placeholder="Project ZIP code" inputmode="numeric">
+<input name="address" placeholder="Project address or ZIP code">
 <textarea name="details" placeholder="Tell us about the project (rooms, colors, timing)"></textarea>
 <button class="btn bp" type="submit">Get My Free Estimate →</button>
 </form>
