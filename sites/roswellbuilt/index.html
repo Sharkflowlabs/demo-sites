@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Roswell Built | Builders Gold Coast &amp; Brisbane | Homes, Renovations, Commercial</title>
+<meta name="description" content="Roswell Built builds quality homes, commercial spaces, modular projects and tailored renovations across the Gold Coast and Brisbane. Get a free quote.">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"GeneralContractor","name":"Roswell Built","url":"https://www.roswellbuilt.com.au","telephone":"0491 570 156","areaServed":["Gold Coast","Brisbane","Redland City"],"description":"Quality homes, commercial spaces, modular projects & tailored renovations."}</script>
+<style>
+:root{--bk:#0a0b0a;--bk2:#121412;--bk3:#1a1d1a;--g:#2fbf4a;--g2:#5be06f;--w:#fff;--mut:#a7ada7;--line:rgba(255,255,255,.1);--ease:cubic-bezier(.2,.8,.2,1)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{background:var(--bk);color:var(--w);font:16px/1.6 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,.disp{font-family:Archivo,sans-serif;line-height:1.02;letter-spacing:-.01em}
+.wrap{width:min(1200px,100% - 40px);margin:auto}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--g);font:700 13px/1 Archivo;letter-spacing:.22em;text-transform:uppercase}
+.eyebrow:before{content:"";width:28px;height:2px;background:var(--g)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:16px 26px;border-radius:2px;font:700 15px/1 Archivo;letter-spacing:.04em;text-transform:uppercase;transition:transform .35s var(--ease),background .3s,color .3s,box-shadow .35s;position:relative;overflow:hidden;cursor:pointer;border:0}
+.btn-g{background:var(--g);color:#04170a}
+.btn-g:hover{background:var(--g2);transform:translateY(-3px);box-shadow:0 14px 30px -10px rgba(47,191,74,.6)}
+.btn-o{border:1.5px solid rgba(255,255,255,.4);color:#fff;background:transparent}
+.btn-o:hover{border-color:var(--g);color:var(--g);transform:translateY(-3px)}
+.btn svg{transition:transform .35s var(--ease)}.btn:hover svg{transform:translateX(4px)}
+/* nav */
+header{position:fixed;inset:0 0 auto;z-index:50;transition:background .4s,padding .4s,border-color .4s;padding:22px 0;border-bottom:1px solid transparent}
+header.solid{background:rgba(10,11,10,.88);backdrop-filter:blur(14px);padding:12px 0;border-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center}.logo svg{height:46px;width:auto}
+.links{display:flex;gap:30px;font:600 14px Inter}
+.links a{position:relative;opacity:.85}.links a:after{content:"";position:absolute;left:0;bottom:-6px;height:2px;width:100%;background:var(--g);transform:scaleX(0);transform-origin:right;transition:transform .35s var(--ease)}
+.links a:hover{opacity:1}.links a:hover:after{transform:scaleX(1);transform-origin:left}
+.navcta{display:flex;align-items:center;gap:18px}
+.tel{font:700 15px Archivo;display:flex;gap:8px;align-items:center}.tel svg{color:var(--g)}
+.navcta .btn{padding:13px 20px;font-size:13px}
+/* hero */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden;padding:140px 0 90px}
+.slides{position:absolute;inset:0}
+.slides img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.12);transition:opacity 1.6s ease,transform 7s linear}
+.slides img.on{opacity:1;transform:scale(1)}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,11,10,.55) 0%,rgba(10,11,10,.25) 35%,rgba(10,11,10,.92) 100%),linear-gradient(90deg,rgba(10,11,10,.75),transparent 70%)}
+.hero .wrap{position:relative;z-index:2}
+.hero-house{position:absolute;right:-60px;top:110px;width:min(520px,60vw);z-index:1;opacity:.5}
+.hero-house path{stroke:var(--g);stroke-width:5;fill:none;stroke-dasharray:1600;stroke-dashoffset:1600;animation:draw 2.6s .4s var(--ease) forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.hero h1{font-size:clamp(44px,8vw,104px);font-weight:900;text-transform:uppercase;max-width:14ch}
+.hero h1 .ln{display:block;overflow:hidden;padding-bottom:.04em}
+.hero h1 .ln span{display:inline-block;transform:translateY(105%);animation:up 1s var(--ease) forwards}
+.hero h1 .ln:nth-child(2) span{animation-delay:.15s}.hero h1 .ln:nth-child(3) span{animation-delay:.3s}
+.hero h1 em{font-style:normal;color:var(--g)}
+@keyframes up{to{transform:none}}
+.hero p.lead{max-width:540px;font-size:clamp(17px,1.6vw,19px);color:#dfe3df;margin:26px 0 34px}
+.fade{opacity:0;transform:translateY(24px);animation:fin 1s var(--ease) forwards}
+@keyframes fin{to{opacity:1;transform:none}}
+.ctas{display:flex;gap:14px;flex-wrap:wrap}
+.hero-meta{display:flex;gap:34px;margin-top:56px;padding-top:26px;border-top:1px solid var(--line);flex-wrap:wrap}
+.hero-meta div{font:600 14px Inter;color:var(--mut);display:flex;align-items:center;gap:10px}
+.hero-meta svg{color:var(--g);flex:none}
+.scroll{position:absolute;right:40px;bottom:40px;z-index:3;width:26px;height:42px;border:2px solid rgba(255,255,255,.5);border-radius:14px}
+.scroll:after{content:"";position:absolute;left:50%;top:8px;width:4px;height:8px;margin-left:-2px;background:var(--g);border-radius:2px;animation:sc 1.8s infinite}
+@keyframes sc{0%{opacity:0;transform:translateY(0)}30%{opacity:1}100%{opacity:0;transform:translateY(14px)}}
+/* marquee */
+.marq{background:var(--g);color:#04170a;overflow:hidden;padding:18px 0;transform:rotate(-1.2deg) scale(1.03);margin:-14px 0 0;position:relative;z-index:5}
+.marq .track{display:flex;width:max-content;animation:mq 32s linear infinite}
+.marq span{font:900 22px/1 Archivo;text-transform:uppercase;letter-spacing:.04em;padding:0 26px;display:flex;align-items:center;gap:52px;white-space:nowrap}
+.marq span:after{content:"";width:12px;height:12px;background:#04170a;transform:rotate(45deg)}
+@keyframes mq{to{transform:translateX(-50%)}}
+section{padding:120px 0}
+.sh{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:56px;flex-wrap:wrap}
+.sh h2{font-size:clamp(36px,5vw,64px);font-weight:900;text-transform:uppercase;margin-top:16px;max-width:16ch}
+.sh p{max-width:420px;color:var(--mut)}
+/* reveal */
+.rv{opacity:0;transform:translateY(40px);transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.rv.in{opacity:1;transform:none}
+.rv-img{clip-path:inset(0 0 100% 0);transition:clip-path 1.3s var(--ease)}
+.rv-img.in{clip-path:inset(0 0 0 0)}
+/* services */
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.card{background:var(--bk);padding:40px 34px 36px;position:relative;overflow:hidden;min-height:300px;display:flex;flex-direction:column;transition:background .5s}
+.card .bg{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transform:scale(1.1);transition:opacity .6s,transform 1.2s var(--ease)}
+.card .bg:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,11,10,.55),rgba(10,11,10,.95))}
+.card:hover .bg{opacity:1;transform:scale(1)}
+.card>*:not(.bg){position:relative}
+.card .num{font:800 13px Archivo;color:var(--g);letter-spacing:.2em}
+.card .ic{width:54px;height:54px;border:1.5px solid var(--g);display:grid;place-items:center;margin:26px 0 22px;color:var(--g);transition:background .4s,color .4s,transform .5s var(--ease)}
+.card:hover .ic{background:var(--g);color:#04170a;transform:rotate(-8deg)}
+.card h3{font-size:25px;font-weight:800;text-transform:uppercase;margin-bottom:10px}
+.card p{color:var(--mut);font-size:15px;transition:color .4s}.card:hover p{color:#e6e9e6}
+.card .more{margin-top:auto;padding-top:22px;font:700 13px Archivo;letter-spacing:.12em;text-transform:uppercase;display:flex;align-items:center;gap:8px;color:var(--g)}
+/* projects */
+.proj{background:var(--bk2)}
+.pgrid{display:grid;grid-template-columns:1.25fr 1fr;grid-template-rows:320px 320px;gap:22px}
+.p{position:relative;overflow:hidden;border-radius:3px;display:block;background:#000}
+.p img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1.4s var(--ease),filter .6s}
+.p:hover img{transform:scale(1.07)}
+.p:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(0,0,0,.88))}
+.p .cap{position:absolute;left:28px;right:28px;bottom:26px;z-index:2}
+.p .tag{display:inline-block;background:var(--g);color:#04170a;font:800 11px Archivo;letter-spacing:.16em;text-transform:uppercase;padding:6px 10px;margin-bottom:12px}
+.p h3{font-size:clamp(22px,2.4vw,32px);font-weight:800;text-transform:uppercase}
+.p .loc{color:#cfd4cf;font-size:14px;margin-top:4px;display:flex;align-items:center;gap:6px}
+.p .arrow{position:absolute;top:22px;right:22px;z-index:2;width:48px;height:48px;border-radius:50%;background:#fff;color:#000;display:grid;place-items:center;transform:scale(0) rotate(-45deg);transition:transform .5s var(--ease)}
+.p:hover .arrow{transform:scale(1) rotate(0)}
+.p1{grid-row:1/3}
+.strip{display:grid;grid-template-columns:repeat(5,1fr);gap:22px;margin-top:22px}
+.strip .p{aspect-ratio:4/5}
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stat{padding:46px 26px;border-right:1px solid var(--line)}.stat:last-child{border:0}
+.stat b{font:900 clamp(40px,5vw,64px)/1 Archivo;color:var(--w);display:block}
+.stat b i{font-style:normal;color:var(--g)}
+.stat>span{color:var(--mut);font-size:14px;text-transform:uppercase;letter-spacing:.12em;font-weight:600}
+/* about */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.about .ph{position:relative}
+.about .ph img{border-radius:3px;width:100%;aspect-ratio:4/3.2;object-fit:cover}
+.about .ph:before{content:"";position:absolute;inset:-18px 18px 18px -18px;border:2px solid var(--g);border-radius:3px;z-index:-1}
+.badge{position:absolute;right:-22px;bottom:-26px;background:var(--g);color:#04170a;padding:22px 24px;font:900 17px/1.15 Archivo;text-transform:uppercase;max-width:190px;animation:bob 4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-8px)}}
+.about h2{font-size:clamp(34px,4.4vw,56px);font-weight:900;text-transform:uppercase;margin:16px 0 22px}
+.about p{color:#c9cec9;margin-bottom:18px}
+.ticks{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:14px 20px;margin:28px 0 34px}
+.ticks li{display:flex;gap:10px;font-weight:600;font-size:15px}
+.ticks svg{color:var(--g);flex:none;margin-top:3px}
+/* process */
+.proc{background:var(--bk2)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:26px;position:relative}
+.steps:before{content:"";position:absolute;top:31px;left:30px;right:30px;height:2px;background:var(--line)}
+.steps .bar{position:absolute;top:31px;left:30px;height:2px;background:var(--g);width:0;transition:width 2.2s var(--ease)}
+.steps.in .bar{width:calc(100% - 60px)}
+.step .dot{width:64px;height:64px;border-radius:50%;background:var(--bk);border:2px solid var(--g);display:grid;place-items:center;font:900 20px Archivo;color:var(--g);position:relative;z-index:1;margin-bottom:26px}
+.step h3{font-size:21px;text-transform:uppercase;font-weight:800;margin-bottom:8px}
+.step p{color:var(--mut);font-size:15px}
+/* area */
+.area{display:grid;grid-template-columns:1fr 1.1fr;gap:60px;align-items:center}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.chips span{border:1px solid var(--line);padding:10px 16px;font-weight:600;font-size:14px;transition:border-color .3s,color .3s,transform .3s}
+.chips span:hover{border-color:var(--g);color:var(--g);transform:translateY(-2px)}
+.area .big{position:relative;border-radius:3px;overflow:hidden}
+.area .big img{width:100%;aspect-ratio:16/11;object-fit:cover}
+/* quote */
+.quote{position:relative;overflow:hidden}
+.quote .qbg{position:absolute;inset:0;background:url(img/walkway-4.jpg) center/cover;opacity:.18;transform:scale(1.1)}
+.quote .wrap{position:relative;display:grid;grid-template-columns:1fr 1.15fr;gap:60px;align-items:start}
+.quote h2{font-size:clamp(38px,5vw,66px);font-weight:900;text-transform:uppercase;margin:16px 0 20px}
+.quote .side p{color:#cfd4cf;margin-bottom:26px;max-width:440px}
+.qline{display:flex;gap:16px;align-items:center;margin-top:18px;font:800 22px Archivo}
+.qline .ci{width:52px;height:52px;border-radius:50%;background:var(--g);color:#04170a;display:grid;place-items:center;position:relative}
+.qline .ci:before{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid var(--g);animation:ping 2.2s infinite}
+@keyframes ping{to{transform:scale(1.7);opacity:0}}
+.qline small{display:block;font:500 13px Inter;color:var(--mut)}
+form{background:var(--bk);border:1px solid var(--line);padding:38px;border-radius:3px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+form h3{grid-column:1/-1;font-size:24px;text-transform:uppercase;font-weight:800}
+.f{display:flex;flex-direction:column;gap:7px}.f.full{grid-column:1/-1}
+label{font:600 12px Inter;text-transform:uppercase;letter-spacing:.12em;color:var(--mut)}
+input,select,textarea{background:var(--bk3);border:1px solid var(--line);color:#fff;font:15px Inter;padding:14px 14px;border-radius:2px;outline:0;transition:border-color .3s,box-shadow .3s;width:100%}
+input:focus,select:focus,textarea:focus{border-color:var(--g);box-shadow:0 0 0 3px rgba(47,191,74,.18)}
+textarea{min-height:96px;resize:vertical}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pills input{display:none}.pills label{cursor:pointer;border:1px solid var(--line);padding:10px 14px;font-size:13px;letter-spacing:.04em;text-transform:none;color:#e6e9e6;transition:all .25s}
+.pills input:checked+label{background:var(--g);border-color:var(--g);color:#04170a}
+form .btn{grid-column:1/-1;justify-content:center}
+.ok{grid-column:1/-1;display:none;background:rgba(47,191,74,.12);border:1px solid var(--g);padding:16px;font-weight:600}
+footer{border-top:1px solid var(--line);padding:60px 0 110px;color:var(--mut);font-size:14px}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px}
+footer h4{color:#fff;font:800 14px Archivo;letter-spacing:.14em;text-transform:uppercase;margin-bottom:16px}
+footer li{list-style:none;margin-bottom:8px}footer a:hover{color:var(--g)}
+.copy{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+/* mobile bar */
+.mbar{display:none}
+.burger{display:none;background:0;border:0;color:#fff;cursor:pointer}
+@media(max-width:1000px){
+ .links{display:none}.tel span{display:none}
+ .svc{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr;row-gap:40px}.steps:before,.steps .bar{display:none}
+ .about,.area,.quote .wrap{grid-template-columns:1fr;gap:50px}
+ .strip{grid-template-columns:repeat(3,1fr)}.strip .p:nth-child(n+4){display:none}
+ .fgrid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:680px){
+ .wrap{width:calc(100% - 32px)}
+ section{padding:84px 0}
+ header{padding:14px 0}.logo svg{height:38px}.navcta .btn{display:none}
+ .hero{padding:120px 0 70px}.hero-house{right:-120px;top:90px;width:360px;opacity:.35}
+ .hero-meta{gap:14px;flex-direction:column;margin-top:40px}.scroll{display:none}
+ .ctas .btn{flex:1;justify-content:center;padding:16px 12px;font-size:13px;white-space:nowrap}
+ .svc{grid-template-columns:1fr}.card{min-height:0}.card .bg{opacity:.35;transform:none}
+ .pgrid{grid-template-columns:1fr;grid-template-rows:420px 260px 260px}.p1{grid-row:auto}
+ .strip{grid-template-columns:1fr 1fr;gap:12px}.strip .p:nth-child(n+3){display:none}
+ .stats{grid-template-columns:1fr 1fr}.stat{padding:30px 16px;border-bottom:1px solid var(--line)}.stat:nth-child(2){border-right:0}
+ .ticks{grid-template-columns:1fr}.badge{right:10px;bottom:-22px}
+ .steps{grid-template-columns:1fr}
+ form{grid-template-columns:1fr;padding:26px 20px}
+ .fgrid{grid-template-columns:1fr}
+ .mbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--bk);border-top:1px solid var(--line);padding:10px;gap:10px;transform:translateY(110%);transition:transform .5s var(--ease)}
+ .mbar.on{transform:none}
+ .mbar a{display:flex;align-items:center;justify-content:center;gap:8px;padding:15px;font:800 14px Archivo;text-transform:uppercase;letter-spacing:.04em}
+ .mbar .c{border:1.5px solid var(--g);color:var(--g)}.mbar .q{background:var(--g);color:#04170a}
+}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.rv,.rv-img,.fade,.hero h1 .ln span{opacity:1!important;transform:none!important;clip-path:none!important}.hero-house path{stroke-dashoffset:0}.slides img.on{transform:none}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="i-phone" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></symbol>
+<symbol id="i-arr" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="i-tick" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M4 12.5l5 5L20 6.5"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></symbol>
+<symbol id="logo" viewBox="0 0 300 130"><path d="M32 112V52L92 8l58 44" fill="none" stroke="#2fbf4a" stroke-width="8" stroke-linejoin="miter"/><path d="M32 112h86" fill="none" stroke="#2fbf4a" stroke-width="8"/><text x="56" y="80" fill="#fff" font-family="Archivo,sans-serif" font-weight="800" font-size="44" textLength="236" lengthAdjust="spacingAndGlyphs">ROSWELL</text><path d="M56 98h62M226 98h66" stroke="#fff" stroke-width="3"/><text x="128" y="106" fill="#fff" font-family="Archivo,sans-serif" font-weight="800" font-size="22" textLength="88" lengthAdjust="spacingAndGlyphs">BUILT</text></symbol>
+</defs></svg>
+
+<header id="top"><div class="wrap nav">
+ <a class="logo" href="#" aria-label="Roswell Built home"><svg viewBox="0 0 300 130"><use href="#logo"/></svg></a>
+ <nav class="links"><a href="#services">Services</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#process">Process</a><a href="#area">Service Area</a></nav>
+ <div class="navcta"><a class="tel" href="tel:0491570156"><svg width="18" height="18"><use href="#i-phone"/></svg><span>0491 570 156</span></a><a class="btn btn-g" href="#quote">Get a Free Quote</a></div>
+</div></header>
+
+<main>
+<section class="hero" style="padding-top:140px">
+ <div class="slides"><img class="on" src="img/deck-1.jpg" alt="Spotted gum marquee deck replacement at Sirromet Wines with glass balustrade"><img src="img/walkway-1.jpg" alt="Timber and Colorbond walkway roof built at Paradise Point, Gold Coast"><img src="img/bath-shower.jpg" alt="Luxury bathroom renovation with fluted glass shower screen"></div>
+ <svg class="hero-house" viewBox="0 0 520 470" aria-hidden="true"><path d="M60 460V190L280 20l200 155"/><path d="M60 460h300"/></svg>
+ <div class="wrap">
+  <span class="eyebrow fade" style="animation-delay:.1s">Gold Coast &amp; Brisbane Builders</span>
+  <h1 style="margin-top:22px"><span class="ln"><span>Built right.</span></span><span class="ln"><span>Built to</span></span><span class="ln"><span><em>last.</em></span></span></h1>
+  <p class="lead fade" style="animation-delay:.7s">Quality homes, commercial spaces, modular projects and tailored renovations. One local team from first sketch to final handover.</p>
+  <div class="ctas fade" style="animation-delay:.9s"><a class="btn btn-g" href="#quote">Get a Free Quote <svg width="18" height="18"><use href="#i-arr"/></svg></a><a class="btn btn-o" href="#projects">See Our Work</a></div>
+  <div class="hero-meta fade" style="animation-delay:1.1s">
+   <div><svg width="18" height="18"><use href="#i-tick"/></svg>Residential &amp; commercial</div>
+   <div><svg width="18" height="18"><use href="#i-tick"/></svg>Fixed, itemised quotes</div>
+   <div><svg width="18" height="18"><use href="#i-tick"/></svg>Gold Coast based crew</div>
+  </div>
+ </div>
+ <a class="scroll" href="#services" aria-label="Scroll down"></a>
+</section>
+
+<div class="marq" aria-hidden="true"><div class="track">
+ <span>New Homes</span><span>Renovations</span><span>Commercial Fit-Outs</span><span>Modular Builds</span><span>Luxury Bathrooms</span><span>Decks &amp; Pergolas</span><span>Walkway Roofs</span>
+ <span>New Homes</span><span>Renovations</span><span>Commercial Fit-Outs</span><span>Modular Builds</span><span>Luxury Bathrooms</span><span>Decks &amp; Pergolas</span><span>Walkway Roofs</span>
+</div></div>
+
+<section id="services"><div class="wrap">
+ <div class="sh rv"><div><span class="eyebrow">What we build</span><h2>Every project, built properly.</h2></div><p>From a new family home to a commercial fit-out, we manage the whole job, keep you in the loop, and finish to a standard we're proud to put our name on.</p></div>
+ <div class="svc">
+  <a class="card rv" href="#quote"><div class="bg" style="background-image:url(img/grid-frame.jpg)"></div><span class="num">01</span><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-7 9 7v10H3z"/><path d="M9 21v-6h6v6"/></svg></div><h3>Quality Homes</h3><p>New builds and knockdown-rebuilds designed around how your family actually lives.</p><span class="more">Get a quote <svg width="16" height="16"><use href="#i-arr"/></svg></span></a>
+  <a class="card rv" href="#quote" style="transition-delay:.08s"><div class="bg" style="background-image:url(img/grid-bath.jpg)"></div><span class="num">02</span><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h16v3a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M6 12V5a2 2 0 0 1 4 0"/></svg></div><h3>Tailored Renovations</h3><p>Luxury bathrooms, kitchens and full-home renovations finished with care down to the last tile.</p><span class="more">Get a quote <svg width="16" height="16"><use href="#i-arr"/></svg></span></a>
+  <a class="card rv" href="#quote" style="transition-delay:.16s"><div class="bg" style="background-image:url(img/grid-aerial.jpg)"></div><span class="num">03</span><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="3" width="16" height="18"/><path d="M9 7h2M13 7h2M9 11h2M13 11h2M9 15h2M13 15h2"/></svg></div><h3>Commercial Spaces</h3><p>Fit-outs, extensions and hospitality builds delivered on time, with minimal disruption to trade.</p><span class="more">Get a quote <svg width="16" height="16"><use href="#i-arr"/></svg></span></a>
+  <a class="card rv" href="#quote"><div class="bg" style="background-image:url(img/grid-site.jpg)"></div><span class="num">04</span><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="8" height="7"/><rect x="13" y="4" width="8" height="7"/><rect x="3" y="13" width="8" height="7"/><rect x="13" y="13" width="8" height="7"/></svg></div><h3>Modular Projects</h3><p>Faster, cost-effective modular builds, from site prep and footings to install and finishing.</p><span class="more">Get a quote <svg width="16" height="16"><use href="#i-arr"/></svg></span></a>
+  <a class="card rv" href="#quote" style="transition-delay:.08s"><div class="bg" style="background-image:url(img/deck-2.jpg)"></div><span class="num">05</span><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 14h18M5 14v6M19 14v6M3 10h18M7 10V4M17 10V4"/></svg></div><h3>Decks &amp; Outdoor</h3><p>Hardwood decks, pergolas, patios and walkway roofs built for the Queensland weather.</p><span class="more">Get a quote <svg width="16" height="16"><use href="#i-arr"/></svg></span></a>
+  <a class="card rv" href="#quote" style="transition-delay:.16s"><div class="bg" style="background-image:url(img/bath-fluted.jpg)"></div><span class="num">06</span><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v3M5.6 5.6l2.1 2.1M3 12h3M18 12h3M16.3 7.7l2.1-2.1"/><circle cx="12" cy="14" r="5"/></svg></div><h3>Extensions</h3><p>Add the space you need with an extension that looks like it was always part of the home.</p><span class="more">Get a quote <svg width="16" height="16"><use href="#i-arr"/></svg></span></a>
+ </div>
+</div></section>
+
+<section class="proj" id="projects"><div class="wrap">
+ <div class="sh rv"><div><span class="eyebrow">Recent work</span><h2>Projects we're proud of.</h2></div><p>A few recent jobs from around South East Queensland. Follow along on Instagram for the latest builds.</p></div>
+ <div class="pgrid">
+  <a class="p p1 rv-img" href="#quote"><img src="img/deck-1.jpg" alt="Marquee deck replacement at Sirromet Wines"><span class="arrow"><svg width="20" height="20"><use href="#i-arr"/></svg></span><div class="cap"><span class="tag">Commercial</span><h3>Marquee Deck Replacement</h3><div class="loc"><svg width="14" height="14"><use href="#i-pin"/></svg>Sirromet Wines, Mount Cotton</div></div></a>
+  <a class="p p2 rv-img" href="#quote" style="transition-delay:.15s"><img src="img/walkway-3.jpg" alt="New walkway roof at Paradise Point"><span class="arrow"><svg width="20" height="20"><use href="#i-arr"/></svg></span><div class="cap"><span class="tag">Outdoor</span><h3>Walkway Roof</h3><div class="loc"><svg width="14" height="14"><use href="#i-pin"/></svg>Paradise Point, Gold Coast</div></div></a>
+  <a class="p p3 rv-img" href="#quote" style="transition-delay:.3s"><img src="img/bath-vanity.jpg" alt="Luxury bathroom renovation with timber vanity and brass fittings" style="object-position:center 40%"><span class="arrow"><svg width="20" height="20"><use href="#i-arr"/></svg></span><div class="cap"><span class="tag">Renovation</span><h3>Luxury Bathroom</h3><div class="loc"><svg width="14" height="14"><use href="#i-pin"/></svg>Gold Coast</div></div></a>
+ </div>
+ <div class="strip">
+  <div class="p rv-img"><img src="img/walkway-2.jpg" alt="Timber walkway roof frame"></div>
+  <div class="p rv-img" style="transition-delay:.1s"><img src="img/bath-shower.jpg" alt="Shower with fluted screen"></div>
+  <div class="p rv-img" style="transition-delay:.2s"><img src="img/grid-aerial.jpg" alt="Commercial build site from above"></div>
+  <div class="p rv-img" style="transition-delay:.3s"><img src="img/grid-bath.jpg" alt="Powder room renovation"></div>
+  <div class="p rv-img" style="transition-delay:.4s"><img src="img/deck-2.jpg" alt="Hardwood deck with glass balustrade"></div>
+ </div>
+</div></section>
+
+<div class="wrap"><div class="stats">
+ <div class="stat rv"><b><span data-count="4">0</span><i>+</i></b><span>Build types</span></div>
+ <div class="stat rv"><b><span data-count="11">0</span><i>+</i></b><span>Suburbs serviced</span></div>
+ <div class="stat rv"><b><span data-count="1">0</span></b><span>Team, start to finish</span></div>
+ <div class="stat rv"><b><i>$</i>0</b><span>For your quote</span></div>
+</div></div>
+
+<section id="about"><div class="wrap about">
+ <div class="ph rv"><img src="img/team.jpg" alt="The Roswell Built team at their Pink Ribbon breakfast"><div class="badge">One crew.<br>Start to finish.</div></div>
+ <div class="rv">
+  <span class="eyebrow">Who we are</span>
+  <h2>A local team that shows up.</h2>
+  <p>Roswell Built is a Gold Coast building company. We take on new homes, commercial spaces, modular projects and renovations, and we treat every one like it's our own.</p>
+  <p>You'll deal with the same people from the first site visit to handover. No runaround, no surprises on the invoice, and a clean site every day.</p>
+  <ul class="ticks">
+   <li><svg width="18" height="18"><use href="#i-tick"/></svg>Clear, itemised quotes</li>
+   <li><svg width="18" height="18"><use href="#i-tick"/></svg>Regular progress updates</li>
+   <li><svg width="18" height="18"><use href="#i-tick"/></svg>Trusted local trades</li>
+   <li><svg width="18" height="18"><use href="#i-tick"/></svg>Residential &amp; commercial</li>
+  </ul>
+  <a class="btn btn-g" href="#quote">Talk to the team <svg width="18" height="18"><use href="#i-arr"/></svg></a>
+ </div>
+</div></section>
+
+<section class="proc" id="process"><div class="wrap">
+ <div class="sh rv"><div><span class="eyebrow">How it works</span><h2>Simple from day one.</h2></div><p>Building is a big decision. Here's exactly what happens after you get in touch.</p></div>
+ <div class="steps rv" id="steps"><div class="bar"></div>
+  <div class="step"><div class="dot">01</div><h3>Free consult</h3><p>We visit the site, listen to what you want and talk through budget and timing.</p></div>
+  <div class="step"><div class="dot">02</div><h3>Clear quote</h3><p>You get a detailed, itemised quote so you know exactly what you're paying for.</p></div>
+  <div class="step"><div class="dot">03</div><h3>We build</h3><p>Our crew gets to work, with regular updates and a tidy site the whole way through.</p></div>
+  <div class="step"><div class="dot">04</div><h3>Handover</h3><p>Final walkthrough, every detail checked, and you get the keys to a job done right.</p></div>
+ </div>
+</div></section>
+
+<section id="area"><div class="wrap area">
+ <div class="rv">
+  <span class="eyebrow">Service area</span>
+  <h2 class="disp" style="font-size:clamp(34px,4.4vw,56px);font-weight:900;text-transform:uppercase;margin-top:16px">Building across South East Queensland.</h2>
+  <p style="color:var(--mut);margin-top:18px">Based on the Gold Coast and working from Brisbane down to the border. Not sure if we cover you? Just ask.</p>
+  <div class="chips"><span>Gold Coast</span><span>Paradise Point</span><span>Hope Island</span><span>Southport</span><span>Burleigh Heads</span><span>Robina</span><span>Coomera</span><span>Mount Cotton</span><span>Redland Bay</span><span>Logan</span><span>Brisbane</span></div>
+ </div>
+ <div class="big rv-img"><img src="img/walkway-1.jpg" alt="Walkway roof project in Paradise Point"></div>
+</div></section>
+
+<section class="quote" id="quote"><div class="qbg"></div><div class="wrap">
+ <div class="side rv">
+  <span class="eyebrow">Free quote</span>
+  <h2>Let's talk about your build.</h2>
+  <p>Tell us a bit about your project and we'll get back to you within one business day to book a free site visit.</p>
+  <a class="qline" href="tel:0491570156"><span class="ci"><svg width="22" height="22"><use href="#i-phone"/></svg></span><span><small>Prefer to talk? Call us</small>0491 570 156</span></a>
+ </div>
+ <form class="rv" id="qf" onsubmit="event.preventDefault();this.querySelector('.ok').style.display='block';this.querySelector('button').style.display='none'">
+  <h3>Request a free quote</h3>
+  <div class="f full"><label>Project type</label><div class="pills">
+   <input type="radio" name="t" id="t1" checked><label for="t1">New home</label>
+   <input type="radio" name="t" id="t2"><label for="t2">Renovation</label>
+   <input type="radio" name="t" id="t3"><label for="t3">Bathroom / kitchen</label>
+   <input type="radio" name="t" id="t4"><label for="t4">Commercial</label>
+   <input type="radio" name="t" id="t5"><label for="t5">Modular</label>
+   <input type="radio" name="t" id="t6"><label for="t6">Deck / outdoor</label>
+  </div></div>
+  <div class="f"><label for="n">Name</label><input id="n" required autocomplete="name"></div>
+  <div class="f"><label for="p">Phone</label><input id="p" type="tel" required autocomplete="tel"></div>
+  <div class="f"><label for="s">Suburb</label><input id="s" placeholder="e.g. Paradise Point"></div>
+  <div class="f"><label for="b">Rough budget</label><select id="b"><option>Not sure yet</option><option>Under $25k</option><option>$25k to $100k</option><option>$100k to $500k</option><option>$500k+</option></select></div>
+  <div class="f full"><label for="m">Tell us about the project</label><textarea id="m" placeholder="What are you looking to build, and when would you like to start?"></textarea></div>
+  <button class="btn btn-g" type="submit">Send my request <svg width="18" height="18"><use href="#i-arr"/></svg></button>
+  <div class="ok">Thanks! We've got your details and will be in touch within one business day.</div>
+ </form>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+ <div class="fgrid">
+  <div><svg viewBox="0 0 300 130" style="height:56px;width:auto"><use href="#logo"/></svg><p style="margin-top:14px;max-width:300px">Quality homes, commercial spaces, modular projects &amp; tailored renovations across the Gold Coast and Brisbane.</p></div>
+  <div><h4>Services</h4><ul><li>New homes</li><li>Renovations</li><li>Commercial</li><li>Modular</li><li>Decks &amp; outdoor</li></ul></div>
+  <div><h4>Company</h4><ul><li><a href="#projects">Projects</a></li><li><a href="#about">About</a></li><li><a href="#process">Process</a></li><li><a href="#quote">Free quote</a></li></ul></div>
+  <div><h4>Contact</h4><ul><li><a href="tel:0491570156">0491 570 156</a></li><li>Gold Coast, QLD</li><li>Instagram: @roswell.built</li></ul></div>
+ </div>
+ <div class="copy"><span>© 2026 Roswell Built. All rights reserved.</span><span>Website concept by Sharkflowlabs</span></div>
+</div></footer>
+
+<div class="mbar" id="mbar"><a class="c" href="tel:0491570156"><svg width="16" height="16"><use href="#i-phone"/></svg>Call</a><a class="q" href="#quote">Free Quote</a></div>
+
+<script>
+const hd=document.getElementById('top'),mb=document.getElementById('mbar');
+const onS=()=>{const y=scrollY;hd.classList.toggle('solid',y>40);mb.classList.toggle('on',y>400)};addEventListener('scroll',onS,{passive:true});onS();
+const sl=[...document.querySelectorAll('.slides img')];let si=0;setInterval(()=>{sl[si].classList.remove('on');si=(si+1)%sl.length;sl[si].classList.add('on')},6000);
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;e.target.classList.add('in');e.target.querySelectorAll('[data-count]').forEach(cnt);io.unobserve(e.target)}),{threshold:.18,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.rv,.rv-img').forEach(el=>io.observe(el));
+function cnt(el){const t=+el.dataset.count,d=1400,s=performance.now();(function f(n){const p=Math.min((n-s)/d,1);el.textContent=Math.round(t*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(f)})(s)}
+const qb=document.querySelector('.qbg');addEventListener('scroll',()=>{const r=qb.parentElement.getBoundingClientRect();qb.style.transform=`scale(1.1) translateY(${r.top*-.08}px)`},{passive:true});
+</script>
+</body>
+</html>
