@@ -14,7 +14,7 @@
 <body>
 <header class="top"><div class="wrap nav">
   <a class="logo" href="index.html"><img src="mark.png" alt="">sharkflow<span>labs</span></a>
-  <nav><a href="index.html#services">Services</a><a href="index.html#work">Work</a><a href="index.html#process">How it works</a><a href="index.html#faq">FAQ</a><a class="nav-cta" href="text-updates.html">Free demo</a></nav>
+  <nav><a href="index.html#services">Services</a><a href="index.html#work">Work</a><a href="index.html#process">How it works</a><a href="index.html#faq">FAQ</a><a class="nav-cta" href="index.html#contact">Free demo</a></nav>
 </div></header>
 
 <section class="hero"><div class="wrap hero-grid">
@@ -22,7 +22,7 @@
     <p class="eyebrow">Websites for contractors &amp; home services</p>
     <h1>Websites that turn local searches into <em>booked jobs</em>.</h1>
     <p>We design fast, mobile-first websites for roofers, plumbers, HVAC, landscapers, painters and other local service businesses. You see a free demo of your new site before you pay a cent.</p>
-    <div class="cta-row"><a class="btn primary" href="text-updates.html">Get my free demo</a><a class="btn ghost" href="#work">See our work</a></div>
+    <div class="cta-row"><a class="btn primary" href="#contact">Get my free demo</a><a class="btn ghost" href="#work">See our work</a></div>
     <ul class="checks">
       <li>Free demo, no obligation</li>
       <li>Fixed price, no surprises</li>
@@ -90,13 +90,57 @@
   <details><summary>Can you update it later?</summary><p>Yes. Small text and photo changes are included with hosting and care.</p></details>
 </div></section>
 
-<section id="contact" class="cta-band"><div class="wrap cta-inner">
+<section id="contact" class="cta-band quote"><div class="wrap quote-grid">
   <div>
-    <h2>See your new website before you pay</h2>
-    <p>Tell us your business name and we'll build your free demo. Prefer email? Write to <a href="mailto:hello@sharkflowlabs.com">hello@sharkflowlabs.com</a>.</p>
+    <h2>Get your free website demo</h2>
+    <p>Tell us about your business and we'll build a demo of your new homepage, usually within 2 business days. No calls needed, no obligation.</p>
+    <ul class="checks"><li>Free demo first</li><li>Fixed price</li><li>Live in about 2 weeks</li></ul>
+    <p style="margin-top:20px">Prefer email? Write to <a href="mailto:hello@sharkflowlabs.com">hello@sharkflowlabs.com</a>.</p>
   </div>
-  <div class="cta-btns"><a class="btn primary" href="text-updates.html">Get my free demo</a><a class="btn ghost" href="mailto:hello@sharkflowlabs.com">Email us</a></div>
+  <form class="quote-form" id="quote" novalidate>
+    <div class="two">
+      <label>Your name *<input type="text" name="name" required autocomplete="name"></label>
+      <label>Business name *<input type="text" name="business" required autocomplete="organization"></label>
+    </div>
+    <div class="two">
+      <label>Phone *<input type="tel" name="phone" required autocomplete="tel" placeholder="(555) 123-4567"></label>
+      <label>Email *<input type="email" name="email" required autocomplete="email"></label>
+    </div>
+    <div class="two">
+      <label>Your trade<select name="trade"><option value="">Choose one</option><option>Roofing</option><option>Plumbing</option><option>HVAC</option><option>Electrical</option><option>Landscaping</option><option>Cleaning</option><option>Painting</option><option>Pest control</option><option>Other</option></select></label>
+      <label>Current website (if any)<input type="text" name="website" inputmode="url" placeholder="yourbusiness.com"></label>
+    </div>
+    <label>Anything we should know?<textarea name="message" rows="3" placeholder="Services, service area, what you'd like the site to do"></textarea></label>
+    <label class="hp" aria-hidden="true">Leave this empty<input type="text" name="company_website_hp" tabindex="-1" autocomplete="off"></label>
+    <label class="consent"><input type="checkbox" name="agree_terms" required>
+      <span>I agree to the <a href="privacy.html" target="_blank">Privacy Policy</a> and <a href="terms.html" target="_blank">Terms</a>. *</span></label>
+    <label class="consent"><input type="checkbox" name="consent_contact">
+      <span id="consentText">I agree to receive calls and text messages from Sharkflow Labs at the number above about my website demo, meeting links and reminders, and our services. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help. Consent is not a condition of purchase.</span></label>
+    <button type="submit">Get my free demo</button>
+    <p class="msg" id="quoteMsg" role="status"></p>
+  </form>
 </div></section>
+<script>
+document.getElementById('quote').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const f = e.target, msg = document.getElementById('quoteMsg'), btn = f.querySelector('button');
+  for (const el of f.querySelectorAll('[required]')) {
+    if (!el.checkValidity()) { el.focus(); msg.textContent = el.type === 'checkbox' ? 'Please agree to the Privacy Policy and Terms.' : 'Please fill in ' + el.closest('label').firstChild.textContent.replace('*','').trim().toLowerCase() + '.'; return; }
+  }
+  const data = Object.fromEntries(new FormData(f));
+  data.agree_terms = f.agree_terms.checked;
+  data.consent_contact = f.consent_contact.checked;
+  data.consent_text = data.consent_contact ? document.getElementById('consentText').textContent.trim() : '';
+  btn.disabled = true; msg.textContent = 'Sending…';
+  try {
+    const r = await fetch('https://sharkflow-phone.preethamsaixp.workers.dev/public/lead', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(data) });
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(j.error || 'Something went wrong');
+    f.reset(); msg.textContent = 'Thanks! We got your details and will be in touch soon with your demo.';
+  } catch (err) { msg.textContent = err.message + '. You can also email hello@sharkflowlabs.com.'; }
+  finally { btn.disabled = false; }
+});
+</script>
 <footer><div class="wrap row">
   <div>© 2026 Sharkflow Labs.</div>
   <div><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms</a> · <a href="text-updates.html">Text updates</a> · <a href="mailto:hello@sharkflowlabs.com">hello@sharkflowlabs.com</a></div>

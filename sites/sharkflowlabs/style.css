@@ -99,3 +99,19 @@ details p { color: var(--muted); margin: 10px 0 0; }
   .hero-shot { max-width: 440px; }
   .nav nav a:not(.nav-cta) { display: none; }
 }
+/* quote form */
+.quote-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 48px; align-items: start; }
+.quote h2 { color: #fff; }
+.quote-form { background: #fff; color: var(--text); border-radius: 16px; padding: 24px; display: grid; gap: 12px; box-shadow: 0 30px 60px rgba(0,0,0,.35); }
+.quote-form .two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.quote-form label { display: grid; gap: 4px; font-size: 14px; font-weight: 600; }
+.quote-form input, .quote-form select, .quote-form textarea { font: inherit; font-size: 16px; font-weight: 400; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; width: 100%; background: #fff; color: var(--text); }
+.quote-form textarea { resize: vertical; }
+.quote-form .consent { display: flex; gap: 10px; align-items: flex-start; font-weight: 400; font-size: 13px; color: var(--muted); line-height: 1.5; }
+.quote-form .consent input { width: auto; margin-top: 3px; flex: none; }
+.quote-form .consent a { color: var(--blue); }
+.quote-form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.quote-form button { font: inherit; font-weight: 700; border: 0; border-radius: 10px; padding: 13px; color: #fff; background: linear-gradient(90deg, #2ec4ff, #1e6bff); cursor: pointer; }
+.quote-form button:disabled { opacity: .6; }
+.quote-form .msg { font-size: 14px; margin: 0; min-height: 1em; color: var(--text); }
+@media (max-width: 860px) { .quote-grid, .quote-form .two { grid-template-columns: 1fr; } }
