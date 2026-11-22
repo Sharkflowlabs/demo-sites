@@ -1,4 +1,4 @@
-:root { --navy: #0a1628; --navy-2: #10213b; --cyan: #2ec4ff; --blue: #1e6bff; --text: #0f1b2d; --muted: #5b6b82; --line: #e3e8ef; --bg: #ffffff; --soft: #f4f7fb; }
+:root { --navy: #0b1220; --navy-2: #111a2e; --cyan: #f5b544; --blue: #2563eb; --text: #0f1b2d; --muted: #5b6b82; --line: #e3e8ef; --bg: #ffffff; --soft: #f6f7fb; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: var(--text); background: var(--bg); line-height: 1.6; font-size: 17px; }
@@ -13,12 +13,12 @@ header.top { background: var(--navy); color: #fff; }
 .nav nav { display: flex; gap: 20px; flex-wrap: wrap; }
 .nav nav a { color: #c9d6ea; text-decoration: none; font-size: 15px; }
 .nav nav a:hover { color: #fff; }
-.hero { background: radial-gradient(1200px 500px at 80% -10%, #1e6bff55, transparent), var(--navy); color: #fff; padding: 72px 0 88px; }
+.hero { background: radial-gradient(1200px 500px at 80% -10%, #2563eb55, transparent), var(--navy); color: #fff; padding: 72px 0 88px; }
 .hero h1 { font-size: clamp(34px, 5vw, 56px); line-height: 1.08; letter-spacing: -.03em; margin: 0 0 18px; max-width: 760px; }
-.hero h1 em { font-style: normal; background: linear-gradient(90deg, #6be4ff, #1e6bff); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero h1 em { font-style: normal; background: linear-gradient(90deg, #ffd27a, #f5b544); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .hero p { color: #c9d6ea; font-size: 19px; max-width: 620px; margin: 0 0 28px; }
 .btn { display: inline-block; padding: 13px 22px; border-radius: 10px; font-weight: 700; text-decoration: none; }
-.btn.primary { background: linear-gradient(90deg, #2ec4ff, #1e6bff); color: #fff; }
+.btn.primary { background: linear-gradient(180deg, #ffc861, #f5b544); color: #fff; }
 .btn.ghost { border: 1px solid #ffffff44; color: #fff; margin-left: 8px; }
 section { padding: 72px 0; }
 section.alt { background: var(--soft); }
@@ -38,7 +38,7 @@ form.optin label { display: grid; gap: 4px; font-size: 14px; font-weight: 600; }
 form.optin input[type=text], form.optin input[type=tel], form.optin input[type=email] { font: inherit; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; }
 form.optin .consent { display: flex; gap: 10px; align-items: flex-start; font-weight: 400; font-size: 14px; color: var(--muted); }
 form.optin .consent input { margin-top: 4px; flex: none; }
-form.optin button { font: inherit; font-weight: 700; border: 0; border-radius: 10px; padding: 12px; color: #fff; background: linear-gradient(90deg, #2ec4ff, #1e6bff); cursor: pointer; }
+form.optin button { font: inherit; font-weight: 700; border: 0; border-radius: 10px; padding: 12px; color: #fff; background: linear-gradient(180deg, #ffc861, #f5b544); cursor: pointer; }
 form.optin .msg { font-size: 14px; margin: 0; min-height: 1em; }
 .doc { padding: 56px 0 72px; }
 .doc h1 { font-size: clamp(30px, 4vw, 42px); letter-spacing: -.02em; margin: 0 0 6px; }
@@ -64,7 +64,7 @@ footer a { color: #c9d6ea; }
 .card.shot figcaption { padding: 12px 16px; font-weight: 600; }
 /* v2 */
 .nav nav { align-items: center; }
-.nav nav a.nav-cta { background: linear-gradient(90deg, #2ec4ff, #1e6bff); color: #fff; padding: 8px 14px; border-radius: 8px; font-weight: 700; }
+.nav nav a.nav-cta { background: linear-gradient(180deg, #ffc861, #f5b544); color: #fff; padding: 8px 14px; border-radius: 8px; font-weight: 700; }
 .hero { padding: 64px 0 72px; }
 .hero-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 48px; align-items: center; }
 .eyebrow { color: #6be4ff !important; font-size: 14px !important; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 14px !important; }
@@ -89,7 +89,7 @@ details summary::-webkit-details-marker { display: none; }
 details summary::after { content: "+"; color: var(--blue); font-size: 22px; line-height: 1; }
 details[open] summary::after { content: "–"; }
 details p { color: var(--muted); margin: 10px 0 0; }
-.cta-band { background: radial-gradient(800px 300px at 90% 0%, #1e6bff66, transparent), var(--navy); color: #fff; }
+.cta-band { background: radial-gradient(800px 300px at 90% 0%, #2563eb66, transparent), var(--navy); color: #fff; }
 .cta-band p { color: #c9d6ea; margin: 0; }
 .cta-band a:not(.btn) { color: #6be4ff; }
 .cta-inner { display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
@@ -111,7 +111,7 @@ details p { color: var(--muted); margin: 10px 0 0; }
 .quote-form .consent input { width: auto; margin-top: 3px; flex: none; }
 .quote-form .consent a { color: var(--blue); }
 .quote-form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
-.quote-form button { font: inherit; font-weight: 700; border: 0; border-radius: 10px; padding: 13px; color: #fff; background: linear-gradient(90deg, #2ec4ff, #1e6bff); cursor: pointer; }
+.quote-form button { font: inherit; font-weight: 700; border: 0; border-radius: 10px; padding: 13px; color: #fff; background: linear-gradient(180deg, #ffc861, #f5b544); cursor: pointer; }
 .quote-form button:disabled { opacity: .6; }
 .quote-form .msg { font-size: 14px; margin: 0; min-height: 1em; color: var(--text); }
 @media (max-width: 860px) { .quote-grid, .quote-form .two { grid-template-columns: 1fr; } }
@@ -122,7 +122,7 @@ details p { color: var(--muted); margin: 10px 0 0; }
 .work-sec { background: linear-gradient(180deg, #fff, var(--soft)); }
 .eyebrow-dark { color: var(--blue); font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 10px; }
 .feature { display: grid; grid-template-columns: 1.35fr 1fr; gap: 48px; align-items: center; background: var(--navy); color: #fff; border-radius: 22px; padding: 40px; position: relative; overflow: hidden; box-shadow: 0 30px 70px rgba(10,22,40,.18); }
-.feature::before { content: ""; position: absolute; inset: 0; background: radial-gradient(500px 320px at 20% 30%, #0f6b5f66, transparent), radial-gradient(400px 300px at 100% 100%, #1e6bff33, transparent); pointer-events: none; }
+.feature::before { content: ""; position: absolute; inset: 0; background: radial-gradient(500px 320px at 20% 30%, #0f6b5f66, transparent), radial-gradient(400px 300px at 100% 100%, #2563eb33, transparent); pointer-events: none; }
 .feature > * { position: relative; }
 .feature-media { position: relative; padding: 0 40px 40px 0; }
 .browser { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 24px 50px rgba(0,0,0,.4); }
@@ -156,3 +156,19 @@ details p { color: var(--muted); margin: 10px 0 0; }
 .pill-c { justify-self: start; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); background: var(--soft); border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; margin-bottom: 6px; }
 @media (max-width: 960px) { .feature { grid-template-columns: 1fr; padding: 24px; gap: 28px; } .concepts { grid-template-columns: 1fr; } }
 @media (max-width: 760px) { .concepts { grid-template-columns: 1fr; } .feature-media { padding: 0 24px 28px 0; } .phone-frame { width: 30%; border-radius: 16px; padding: 4px; } .phone-frame img { border-radius: 12px; } }
+/* Midnight & Gold (brand A) */
+.btn.primary, .nav nav a.nav-cta, form.optin button, .quote-form button { color: #0b1220; box-shadow: 0 8px 24px rgba(245,181,68,.25); }
+.btn.primary:hover, .nav nav a.nav-cta:hover, .quote-form button:hover { filter: brightness(1.05); }
+.nav nav a.nav-cta { color: #0b1220 !important; }
+.eyebrow { color: #f5b544 !important; }
+.checks li::before { color: #f5b544; }
+.cta-band a:not(.btn) { color: #ffd27a; }
+.ico { background: linear-gradient(135deg, #3b82f6, #2563eb); }
+.num { background: #2563eb; }
+.built li::before { background: #f5b54422; color: #f5b544; }
+.feature .meta { color: #ffd27a; }
+.feature::before { background: radial-gradient(500px 320px at 20% 30%, #2563eb40, transparent), radial-gradient(400px 300px at 100% 100%, #f5b54418, transparent); }
+details summary::after { color: #2563eb; }
+.pain li { border-left-color: #f5b544; }
+.hero { background: radial-gradient(1000px 480px at 85% -10%, #2563eb55, transparent), radial-gradient(600px 300px at 0% 110%, #f5b54414, transparent), #0b1220; }
+.quote-form .consent a { color: var(--blue); }
