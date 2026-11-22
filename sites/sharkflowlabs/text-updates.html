@@ -14,7 +14,7 @@
 <body>
 <header class="top"><div class="wrap nav">
   <a class="logo" href="index.html"><img src="mark.png" alt="">sharkflow<span>labs</span></a>
-  <nav><a href="index.html#services">Services</a><a href="index.html#process">How it works</a><a href="text-updates.html">Get your demo</a><a href="index.html#contact">Contact</a></nav>
+  <nav><a href="index.html#services">Services</a><a href="index.html#work">Work</a><a href="index.html#process">How it works</a><a href="text-updates.html">Get your demo</a><a href="index.html#contact">Contact</a></nav>
 </div></header>
 
 <main class="doc"><div class="wrap">
@@ -53,7 +53,7 @@
   <h2>What we send</h2>
   <p>Your website demo link, Google Meet links for calls you agreed to, reminders before those calls, and follow-ups about your demo and pricing. Every message is sent by a person, one at a time. Message frequency varies.</p>
   <h2>How to stop</h2>
-  <div class="box">Reply <b>STOP</b> to any message to stop all texts. Reply <b>START</b> to resubscribe. Reply <b>HELP</b> for help, or email <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>. Message and data rates may apply.</div>
+  <div class="box">Reply <b>STOP</b> to any message to stop all texts. Reply <b>START</b> to resubscribe. Reply <b>HELP</b> for help, or email <a href="mailto:hello@sharkflowlabs.com">hello@sharkflowlabs.com</a>. Message and data rates may apply.</div>
   <h2>Your privacy</h2>
   <p>We do not sell or share your phone number or text messaging opt-in data with third parties or affiliates for marketing purposes. Read the full <a href="privacy.html">Privacy Policy</a>.</p>
 </div></main>
@@ -70,13 +70,13 @@ document.getElementById('optin').addEventListener('submit', async (e) => {
     const j = await r.json().catch(() => ({}));
     if (!r.ok) throw new Error(j.error || 'Something went wrong');
     f.reset(); msg.textContent = 'Thanks! We\'ll text you your demo link soon.';
-  } catch (err) { msg.textContent = err.message + '. You can also email {{EMAIL}}.'; }
+  } catch (err) { msg.textContent = err.message + '. You can also email hello@sharkflowlabs.com.'; }
   finally { btn.disabled = false; }
 });
 </script>
 <footer><div class="wrap row">
-  <div>© 2026 Sharkflow Labs. Sharkflow Labs is a brand of {{REGISTERED_NAME}}, {{CITY}}, India.</div>
-  <div><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms</a> · <a href="text-updates.html">Text updates</a> · <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></div>
+  <div>© 2026 Sharkflow Labs. Based in India, serving the US and UK.</div>
+  <div><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms</a> · <a href="text-updates.html">Text updates</a> · <a href="mailto:hello@sharkflowlabs.com">hello@sharkflowlabs.com</a></div>
 </div></footer>
 </body>
 </html>
