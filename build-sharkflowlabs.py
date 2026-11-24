@@ -231,7 +231,7 @@ pages['text-updates.html'] = ("Text updates | Sharkflow Labs", "How Sharkflow La
   </div>
 
   <h2>What we send</h2>
-  <p>Your website demo link, Google Meet links for calls you agreed to, reminders before those calls, and follow-ups about your demo and pricing. Every message is sent by a person, one at a time. Message frequency varies.</p>
+  <p>Your website demo link, Google Meet links for calls you agreed to, reminders before those calls, and follow-ups about your demo and pricing. Every message is sent by a person, one at a time, from our business number +1 (470) 706-1294. Message frequency varies.</p>
   <h2>How to stop</h2>
   <div class="box">Reply <b>STOP</b> to any message to stop all texts. Reply <b>START</b> to resubscribe. Reply <b>HELP</b> for help, or email <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>. Message and data rates may apply.</div>
   <h2>Your privacy</h2>
@@ -269,6 +269,7 @@ pages['privacy.html'] = ("Privacy Policy | Sharkflow Labs", "Privacy Policy for 
   <div class="box">If you agree to receive text messages from Sharkflow Labs, we use your phone number only to send you messages about your website demo, meetings and our services. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help. We do not sell or share your phone number or text messaging opt-in data with third parties or affiliates for marketing purposes.</div>
   <h2>Who we share it with</h2>
   <p>Only service providers that help us run the business, such as our phone and messaging provider (Twilio), hosting (Cloudflare) and email. They may only use it to provide their service to us. We do not sell personal information.</p>
+  <p>No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. Text messaging originator opt-in data and consent are excluded from all of the sharing described above and will not be shared with any third parties.</p>
   <h2>How long we keep it</h2>
   <p>As long as we are in contact with you, and for up to 2 years after, unless you ask us to delete it sooner or the law requires us to keep it longer.</p>
   <h2>Your choices</h2>
@@ -287,7 +288,7 @@ pages['terms.html'] = ("Terms | Sharkflow Labs", "Terms of service and messaging
   <p>Website demos are free and come with no obligation. Paid work starts only after you approve a written price and scope. Ownership of the finished website passes to you once it is paid for.</p>
   <h2>Text messaging terms</h2>
   <div class="box">
-    <p style="margin-top:0"><b>Program:</b> Sharkflow Labs texts about website demos, meeting links and reminders, and follow-ups about our services, sent only to people who agreed to receive them.</p>
+    <p style="margin-top:0"><b>Program:</b> Sharkflow Labs texts about website demos, meeting links and reminders, and follow-ups about our services, sent only to people who agreed to receive them. Texts come from our business number, +1 (470) 706-1294.</p>
     <p><b>Frequency:</b> Message frequency varies.</p>
     <p><b>Cost:</b> Message and data rates may apply.</p>
     <p><b>Opt out:</b> Reply STOP to any message to stop. Reply START to resubscribe.</p>
