@@ -21,7 +21,7 @@ HEAD = """<!doctype html>
 """
 FOOT = """<footer><div class="wrap row">
   <div>© 2026 Sharkflow Labs. Sharkflow Labs is a brand of {{REGISTERED_NAME}}.</div>
-  <div><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms</a> · <a href="text-updates.html">Text updates</a> · <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></div>
+  <div><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms &amp; Conditions</a> · <a href="text-updates.html">Text updates</a> · <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></div>
 </div></footer>
 </body>
 </html>
@@ -235,7 +235,7 @@ pages['text-updates.html'] = ("Text updates | Sharkflow Labs", "How Sharkflow La
   <h2>How to stop</h2>
   <div class="box">Reply <b>STOP</b> to any message to stop all texts. Reply <b>START</b> to resubscribe. Reply <b>HELP</b> for help, or email <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>. Message and data rates may apply.</div>
   <h2>Your privacy</h2>
-  <p>We do not sell or share your phone number or text messaging opt-in data with third parties or affiliates for marketing purposes. Read the full <a href="privacy.html">Privacy Policy</a>.</p>
+  <p>We do not sell or share your SMS opt-in data or personal information with third parties for marketing purposes. We also do not share your phone number or text messaging opt-in data with affiliates for marketing purposes. Read the full <a href="privacy.html">Privacy Policy</a>.</p>
 </div></main>
 <script>
 document.getElementById('optin').addEventListener('submit', async (e) => {
@@ -266,7 +266,7 @@ pages['privacy.html'] = ("Privacy Policy | Sharkflow Labs", "Privacy Policy for 
   <h2>How we use it</h2>
   <p>To prepare your website demo, contact you about it, schedule and remind you of calls, provide our services and keep business records. We do not use your information for any unrelated purpose.</p>
   <h2>Text messaging</h2>
-  <div class="box">If you agree to receive text messages from Sharkflow Labs, we use your phone number only to send you messages about your website demo, meetings and our services. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help. We do not sell or share your phone number or text messaging opt-in data with third parties or affiliates for marketing purposes.</div>
+  <div class="box">If you agree to receive text messages from Sharkflow Labs, we use your phone number only to send you messages about your website demo, meetings and our services. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help. We do not sell or share your SMS opt-in data or personal information with third parties for marketing purposes. We also do not share your phone number or text messaging opt-in data with affiliates for marketing purposes.</div>
   <h2>Who we share it with</h2>
   <p>Only service providers that help us run the business, such as our phone and messaging provider (Twilio), hosting (Cloudflare) and email. They may only use it to provide their service to us. We do not sell personal information.</p>
   <p>No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. Text messaging originator opt-in data and consent are excluded from all of the sharing described above and will not be shared with any third parties.</p>
@@ -279,14 +279,14 @@ pages['privacy.html'] = ("Privacy Policy | Sharkflow Labs", "Privacy Policy for 
 </div></main>
 """)
 
-pages['terms.html'] = ("Terms | Sharkflow Labs", "Terms of service and messaging terms for Sharkflow Labs.", """
+pages['terms.html'] = ("Terms & Conditions | Sharkflow Labs", "Terms of service and messaging terms for Sharkflow Labs.", """
 <main class="doc"><div class="wrap">
-  <h1>Terms</h1>
+  <h1>Terms &amp; Conditions</h1>
   <p class="updated">Last updated 22 November 2026</p>
   <p>These terms apply to this website and to services from Sharkflow Labs, a brand of {{REGISTERED_NAME}}.</p>
   <h2>Demos and projects</h2>
   <p>Website demos are free and come with no obligation. Paid work starts only after you approve a written price and scope. Ownership of the finished website passes to you once it is paid for.</p>
-  <h2>Text messaging terms</h2>
+  <h2>SMS Terms</h2>
   <div class="box">
     <p style="margin-top:0"><b>Program:</b> Sharkflow Labs texts about website demos, meeting links and reminders, and follow-ups about our services, sent only to people who agreed to receive them. Texts come from our business number, +1 (470) 706-1294.</p>
     <p><b>Frequency:</b> Message frequency varies.</p>
